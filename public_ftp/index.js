@@ -2,6 +2,6 @@
  * @author Moris Ballenger
  */
 
-$(document).ready (function() {
-
+$(document).ready(function() {
+	alert("Website currently under construction.");
 });

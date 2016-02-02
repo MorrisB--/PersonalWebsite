@@ -16,24 +16,67 @@
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 		<link rel="shortcut icon" href="../public_ftp/favicon.ico">
-
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../public_ftp/index.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="../public_ftp/index.js"></script>
 
 	</head>
 
 	<body>
-		<div>
-			<header></header>
-			<nav></nav>
 
-			<div>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Morris Ballenger</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#Hello">Hello</a>
+						</li>
+						<li>
+							<a href="#Skills">Skills</a>
+						</li>
+						<li>
+							<a href="#Projects">Projects</a>
+						</li>
+						<li>
+							<a href="#Contact">Contact</a>
+						</li>
+					</ul>
 
+				</div>
 			</div>
+		</nav>
 
-			<footer></footer>
+		<div id="Hello">
+			<p>
+				This is where I will say Hello and tell a little bit about myself
+			</p>
 		</div>
+		<div id="Skills">
+			<p>
+				This is where I will tell my current skills, sorted by front-languages, back-end languages, and other
+			</p>
+		</div>
+		<div id="Projects">
+			<p>
+				This is where I will list current projects sorted by language, that will all be in their own div
+			</p>
+		</div>
+		<div id="Contact">
+			<p>
+				This is the end of the page where the user can contact me
+			</p>
+		</div>
+
 	</body>
 </html>
