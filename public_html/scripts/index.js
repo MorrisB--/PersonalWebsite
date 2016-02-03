@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-	//alert("Website currently under construction.");
+	alert("Website currently under construction.");
 
 	// Hello
 
