@@ -6,20 +6,57 @@ body {
 	font-family: "Arial", "Verdana", serif;
 }
 
-/* Navigation Bar Configuration */
+/* Navigation Bar */
 
-.navbar {
-	padding-left: 10%;
-	border-radius: 0;
-}
 #myNavbar {
 	float: right;
 	padding-right: 20%
 }
-.navbar-nav a {
+.navbar {
+	padding-left: 10%;
+	border-radius: 0;
 }
-@media screen and (max-width: 771px) {
+.navbar-default {
+  background-color: #aeaeae;
+  border-color: #6b9fd0;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover{
+  color: #151313;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #151313;
+}
+.navbar-default .navbar-toggle {
+  border-color: #6b9fd0;
+}
+.navbar-default .navbar-toggle:hover{
+  background-color: #6b9fd0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #151313;
+}
+
+@media (max-width: 767px) {
 	.navbar {
-		padding-left: 0;
+		padding:0;
 	}
 }
