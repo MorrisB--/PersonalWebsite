@@ -1,0 +1,5 @@
+To Do:
+
+1) Move all inline styling to .css
+2) Add progress bar
+3) Style
