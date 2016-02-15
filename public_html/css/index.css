@@ -6,6 +6,13 @@ body {
 	font-family: "Arial", "Verdana", serif;
 }
 
+.title {
+	padding: 2% 0%;
+	background-color: white;
+	text-align: center;
+	font-size: 1.1em;
+}
+
 /* Navigation Bar */
 
 #myNavbar {
@@ -92,11 +99,6 @@ body {
 	font-size: 1.1em;
 	padding-bottom: 100px;
 }
-#skillsTitle {
-	padding: 2% 0%;
-	background-color: white;
-	text-align: center;
-}
 #skillsBrackets {
 	width: 50%;
 	float: left;
@@ -135,4 +137,12 @@ body {
 #skillsSoftwareText p {
 	text-align: center;
 	width: 300px;
+}
+
+/* Projects */
+
+.divProjects {
+	width: 1300px;
+	margin: auto;
+	padding-bottom: 500px;
 }
