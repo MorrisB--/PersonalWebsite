@@ -1,35 +1,9 @@
 body {
-	background-color: white;
+	background-color: #aeaeae;
 	margin: 0;
 	padding: 0;
 	font-size: 17px;
 	font-family: "Arial", "Verdana", serif;
-}
-
-/* Hello Div */
-
-#Hello {
-	background-color: #33ccff;
-	padding: 3% 25%;
-	margin-top: -20px;
-	line-height: 200%;
-}
-#helloHello {
-	font-size: 500%;
-	line-height: 120%;
-	color: white;
-	background-color: black;
-}
-#helloName {
-	font-size: 300%;
-	color: white;
-	line-height: 140%;
-	background-color: black;
-}
-#helloTraits {
-	background-color: black;
-	color: white;
-	font-size: 200%;
 }
 
 /* Navigation Bar */
@@ -84,4 +58,81 @@ body {
 	.navbar {
 		padding: 0;
 	}
+}
+
+/* Hello Div */
+
+#Hello {
+	background-color: #33ccff;
+	padding: 3% 25%;
+	margin-top: -20px;
+	line-height: 200%;
+}
+#helloHello {
+	font-size: 500%;
+	line-height: 120%;
+	color: white;
+	background-color: black;
+}
+#helloName {
+	font-size: 300%;
+	color: white;
+	line-height: 140%;
+	background-color: black;
+}
+#helloTraits {
+	background-color: black;
+	color: white;
+	font-size: 200%;
+}
+
+/* Skills Div */
+
+#Skills {
+	font-size: 1.1em;
+	padding-bottom: 100px;
+}
+#skillsTitle {
+	padding: 2% 0%;
+	background-color: white;
+	text-align: center;
+}
+#skillsBrackets {
+	width: 50%;
+	float: left;
+	padding-right: 5%;
+	padding-top: 50px;
+}
+#skillsBrackets img {
+	float: right;
+	width: 100%;
+}
+#skillsBracketsText {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+}
+#skillsBracketsText p {
+	text-align: center;
+	width: 309px;
+	float: right;
+}
+#skillsSoftware {
+	width: 50%;
+	float: right;
+	padding-left: 5%;
+	padding-top: 50px;
+}
+#skillsSoftware img {
+	width: 100%;
+	float: left;
+}
+#skillsSoftwareText {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+#skillsSoftwareText p {
+	text-align: center;
+	width: 300px;
 }

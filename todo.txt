@@ -1,0 +1,6 @@
+To Do:
+
+/* Style Div */
+
+1) Consider adding progress bar to show expertise in skills
+2) Consider adding more styling

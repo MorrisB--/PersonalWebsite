@@ -5,7 +5,7 @@
 $(document).ready(function() {
 	alert("Website currently under construction.");
 
-	// Hello
+	/* Hello */
 
 	var spans = $('span[id^="trait-"]').hide(), i = 0;
 
