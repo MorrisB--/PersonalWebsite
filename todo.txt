@@ -1,5 +1,6 @@
 To Do:
 
-1) Move all inline styling to .css
-2) Add progress bar
-3) Style
+/* Style Div */
+
+1) Consider adding progress bar to show expertise in skills
+2) Consider adding more styling
