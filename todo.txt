@@ -1,6 +1,10 @@
 To Do:
 
-/* Style Div */
+/* Hello Div */
+
+1) Create Photoshop picture for main image, or find temp image
+
+/* Skills Div */
 
 1) Consider adding progress bar to show expertise in skills
 2) Consider adding more styling
