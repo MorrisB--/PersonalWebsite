@@ -1,5 +1,10 @@
 To Do:
 
+// STUFF ON SERVER IS MOST UP TO DATE NEED TO UPLOAD NEWEST FILES TO GITHUB \\
+
+
+
+
 /* Hello Div */
 
 1) Create Photoshop picture for main image, or find temp image
