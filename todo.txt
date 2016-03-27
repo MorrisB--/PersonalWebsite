@@ -1,0 +1,13 @@
+To Do:
+
+
+/* Hello Div */
+
+1) Create Photoshop picture for main image, or find temp image
+
+
+/* Projects Div */
+
+1) Fade in each new div.
+2) Decide on styling
+
