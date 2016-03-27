@@ -175,7 +175,7 @@ if(isset($_POST['submit'])){
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer divs -->
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
 			</div>
 			<div id="JavaScriptDiv" class="divProjects">
@@ -205,7 +205,7 @@ if(isset($_POST['submit'])){
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer divs -->
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
 			</div>
 			<div id="SQLDiv" class="divProjects">
@@ -228,7 +228,7 @@ if(isset($_POST['submit'])){
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer divs -->
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
 			</div>
 		
