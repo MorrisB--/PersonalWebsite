@@ -38,11 +38,11 @@ $(document).ready(
 				$("#JavaScriptDiv").show();
 			});
 			
-			$("#C").click(function() {
+			$("#SQL").click(function() {
 				$('a').removeClass('active');
 				$(this).addClass("active");
 				$(".divProjects").hide();
-				$("#CDiv").show();
+				$("#SQLDiv").show();
 			});
 
 		});
