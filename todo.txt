@@ -25,5 +25,6 @@ To Do:
 Not too important stuff
 
 * Change rentalsDatabase.PNG to rentalsDatabase.png
+* Consider a way to import PHP into index.php, so that can be changed back to index.html
 
 
