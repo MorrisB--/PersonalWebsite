@@ -146,3 +146,8 @@ body {
 	margin: auto;
 	padding-bottom: 500px;
 }
+
+#SQLDiv {
+padding-top:10%;
+background-color:white;
+}

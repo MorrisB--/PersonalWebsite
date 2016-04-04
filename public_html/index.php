@@ -209,24 +209,14 @@ if(isset($_POST['submit'])){
 				<div style="clear:both;"></div>
 			</div>
 			<div id="SQLDiv" class="divProjects">
-				<div style="width:50%; float:left; background-color:white;">
+				<div style="width:50%; float:left; background-color:white;/* padding-left:20%; padding-right:10%*/">
 					<figure>
 						<img src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px">
 						<figcaption>SQL | Java</figcaption>
 					</figure>
 				</div>
-				<div style="width:50%; float:right; background-color:white;">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
+				<div style="width:50%; float:right; background-color:white;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
@@ -244,7 +234,7 @@ if(isset($_POST['submit'])){
 			What is 2+2: <input type="text" name="human"><br>
             
             <input id="submit" name="submit" type="submit" value="Submit">
-</form>
+</form> 
 		</div>
 
 	</body>
