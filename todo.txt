@@ -13,8 +13,8 @@ To Do:
 
 /* Projects Div */
 
-2) Decide on styling
-
+* Decide on styling
+* Figure where extra content at the bottom is going
 
 /* Contact Div */
 
