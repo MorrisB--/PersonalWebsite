@@ -17,6 +17,7 @@ To Do:
 * Make images link to something
 * Make images do something onHover()
   * Fade to color and drop in text
+* Determine dimensions for images
 
 
 /* Contact Div */
