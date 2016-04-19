@@ -53,12 +53,12 @@ $(document).ready(
 			
 			$("#rentalsDatabaseImg").mouseenter(function()
 					{
-					    $(this).fadeOut();
+					    $(this).fadeOut("fast");
 					});
 					                   
 			$("#rentalsDatabaseFadedImg").mouseleave(function()
 					{
-					    $("#rentalsDatabaseImg").fadeIn();
+					    $("#rentalsDatabaseImg").fadeIn("fast");
 					});
 
 		});
