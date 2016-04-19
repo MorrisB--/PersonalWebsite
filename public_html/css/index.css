@@ -144,5 +144,14 @@ body {
 .divProjects {
 	width: 1300px;
 	margin: auto;
-	padding-bottom: 500px;
 }
+
+#SQLDiv {
+padding-top:10%;
+background-color:white;
+}
+
+figcaption {
+	text-align:center;
+}
+

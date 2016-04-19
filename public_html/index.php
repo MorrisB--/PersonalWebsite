@@ -141,12 +141,12 @@ if(isset($_POST['submit'])){
 			</div>
 		</div>
 
-		<div id="Projects">
+		<div id="Projects" style="margin-bottom: 120px">
 			<div class="title"><p>PROJECTS</p></div>
 			<div style="text-align:center; padding-top: 20px; font-size:60px; font-weight:bold; padding-top:100px;">
 				<a href="javascript:;" id="Java">Java</a>
 				<a href="javascript:;" id="JavaScript" style="margin:100px">JavaScript</a>
-				<a href="javascript:;" id="C">C++</a>
+				<a href="javascript:;" id="SQL">SQL</a>
 			</div>
 			<div id="JavaDiv" class="divProjects">
 				<div style="width:50%; float:left; background-color:white;">
@@ -175,6 +175,8 @@ if(isset($_POST['submit'])){
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 				</div>
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
+				<div style="clear:both;"></div>
 			</div>
 			<div id="JavaScriptDiv" class="divProjects">
 				<div style="width:50%; float:left; background-color:white;">
@@ -203,34 +205,25 @@ if(isset($_POST['submit'])){
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 				</div>
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
+				<div style="clear:both;"></div>
 			</div>
-			<div id="CDiv" class="divProjects" class="divProjects">
-				<div style="width:50%; float:left; background-color:white;">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>Figcaption placeholder div</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
+			<div id="SQLDiv" class="divProjects">
+				<div style="width:50%; float:left; background-color:white; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+					<figure style="padding-right: 10%; float: right">
+						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
+						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px; position: absolute;">
+						<img id="rentalsDatabaseFadedImg" src="images/rentalsDatabaseFaded.png" alt="ENTER ALT HERE" style="width:270px; height:480px;">
+						</a>
+						<figcaption>SQL | Java</figcaption>
+					</figure>
 				</div>
-				<div style="width:50%; float:right; background-color:white;">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>Text placeholder div</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
+				<div style="width:50%; float:right; background-color:white; padding:0% 10%;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
+				<h1>Rentals Database</h1><br />
+					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
+				<!-- This is so the inner divs will both adjust the size of the outer div -->
+				<div style="clear:both;"></div>
 			</div>
 		
 
@@ -241,11 +234,11 @@ if(isset($_POST['submit'])){
 			First Name: <input type="text" name="first_name"><br>
 			Last Name: <input type="text" name="last_name"><br>
 			Email: <input type="text" name="email"><br>
-			Message:<br><textarea rows="5" name="message" cols="300"></textarea><br>
+			Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
 			What is 2+2: <input type="text" name="human"><br>
             
             <input id="submit" name="submit" type="submit" value="Submit">
-</form>
+</form> 
 		</div>
 
 	</body>
