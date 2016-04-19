@@ -219,6 +219,7 @@ if(isset($_POST['submit'])){
 					</figure>
 				</div>
 				<div style="width:50%; float:right; background-color:white; padding:0% 10%;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
+				<h1>Rentals Database</h1><br />
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->

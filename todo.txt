@@ -13,7 +13,6 @@ To Do:
 
 /* Projects Div */
 
-* Give title above paragraph
 * Determine dimensions for images
 
 
