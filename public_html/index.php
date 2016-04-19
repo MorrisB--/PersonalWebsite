@@ -141,7 +141,7 @@ if(isset($_POST['submit'])){
 			</div>
 		</div>
 
-		<div id="Projects">
+		<div id="Projects" style="margin-bottom: 120px">
 			<div class="title"><p>PROJECTS</p></div>
 			<div style="text-align:center; padding-top: 20px; font-size:60px; font-weight:bold; padding-top:100px;">
 				<a href="javascript:;" id="Java">Java</a>
@@ -209,7 +209,7 @@ if(isset($_POST['submit'])){
 				<div style="clear:both;"></div>
 			</div>
 			<div id="SQLDiv" class="divProjects">
-				<div style="width:50%; float:left; background-color:white;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:50%; float:left; background-color:white; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 10%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px; position: absolute;">

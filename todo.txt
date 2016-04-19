@@ -17,8 +17,6 @@ To Do:
 /* Projects Div */
 
 * Determine dimensions for images
-* Add white padding at bottom within div
-* Add grey padding outside of div
 
 
 /* Contact Div */
