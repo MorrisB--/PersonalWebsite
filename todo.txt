@@ -10,7 +10,6 @@ To Do:
 
 /* Skills Div */
 
-
 * Consider adding progress bars to show main languages
 
 
@@ -30,6 +29,7 @@ Not too important stuff:
 * Change rentalsDatabase.PNG to rentalsDatabase.png
 * Consider a way to import PHP into index.php, so that can be changed back to index.html
 * Consider using a lighter grey
+
 
 
 Website 2.0:
