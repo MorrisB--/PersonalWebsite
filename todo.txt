@@ -1,9 +1,9 @@
 To Do:
 
-
 /* Hello Div */
 
-1) Create Photoshop picture for main image, or find temp image
+* Create Photoshop picture for main image, or find temp image
+  * Consider new logo
 
 
 /* Skills Div */
@@ -13,7 +13,12 @@ To Do:
 
 /* Projects Div */
 
-* Decide on styling
+* Center text in figcapton
+* Give title above paragraph
+* Make images link to something
+* Make images do something onHover()
+  * Fade to color and drop in text
+
 
 /* Contact Div */
 
@@ -21,14 +26,14 @@ To Do:
 2) Change PHP so it doesn't print at the top of the page
 
 
-Not too important stuff
+Not too important stuff:
 
 * Change rentalsDatabase.PNG to rentalsDatabase.png
 * Consider a way to import PHP into index.php, so that can be changed back to index.html
+* Consider using a lighter grey
 
 
 Website 2.0:
 
 Upgrade to Bootstrap
-
 
