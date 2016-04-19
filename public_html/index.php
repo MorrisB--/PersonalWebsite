@@ -212,7 +212,8 @@ if(isset($_POST['submit'])){
 				<div style="width:50%; float:left; background-color:white;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 10%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
-						<img src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px">
+						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px; position: absolute;">
+						<img id="rentalsDatabaseFadedImg" src="images/rentalsDatabaseFaded.png" alt="ENTER ALT HERE" style="width:270px; height:480px;">
 						</a>
 						<figcaption>SQL | Java</figcaption>
 					</figure>

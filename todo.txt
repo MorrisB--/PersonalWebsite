@@ -14,8 +14,6 @@ To Do:
 /* Projects Div */
 
 * Give title above paragraph
-* Make images do something onHover()
-  * Fade to color and drop in text
 * Determine dimensions for images
 
 
