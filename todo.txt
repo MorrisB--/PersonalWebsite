@@ -13,7 +13,6 @@ To Do:
 
 /* Projects Div */
 
-* Center text in figcapton
 * Give title above paragraph
 * Make images link to something
 * Make images do something onHover()
