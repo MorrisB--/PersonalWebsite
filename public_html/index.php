@@ -211,7 +211,9 @@ if(isset($_POST['submit'])){
 			<div id="SQLDiv" class="divProjects">
 				<div style="width:50%; float:left; background-color:white;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 10%; float: right">
+						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:270px; height:480px">
+						</a>
 						<figcaption>SQL | Java</figcaption>
 					</figure>
 				</div>
