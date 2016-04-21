@@ -233,13 +233,19 @@ if(isset($_POST['submit'])){
 
 
 
-		<div class="title">
+		<div class="title" style="margin-bottom:100px">
 			<p>
 				CONTACT
 			</p>
 		</div>
-		<div id="Contact">
-			<form action="" method="post">
+		<div style="width:50%; float: left">
+		<p style="float:right; padding-right:10%">Feel free to follow me on GitHub!<br />
+		<img src ="images/GitHubIcon.png" style="padding-right:20%;margin-top:100px;"/>
+		</p>
+		</div>
+		
+		<div id="Contact" style="width:50%; float:right">
+			<form action="" method="post" style="margin:auto">
 			First Name: <input type="text" name="first_name"><br>
 			Last Name: <input type="text" name="last_name"><br>
 			Email: <input type="text" name="email"><br>
@@ -247,7 +253,7 @@ if(isset($_POST['submit'])){
 			What is 2+2: <input type="text" name="human"><br>
             
             <input id="submit" name="submit" type="submit" value="Submit">
-</form> 
+			</form> 
 		</div>
 
 	</body>
