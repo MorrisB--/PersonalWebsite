@@ -20,6 +20,7 @@ To Do:
 
 /* Contact Div */
 
+* Setup div layout
 * Find Submit button image
 * Change PHP so it doesn't print at the top of the page
 * Style the form
