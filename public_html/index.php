@@ -229,6 +229,15 @@ if(isset($_POST['submit'])){
 
 		</div>
 
+
+
+
+
+		<div class="title">
+			<p>
+				CONTACT
+			</p>
+		</div>
 		<div id="Contact">
 			<form action="" method="post">
 			First Name: <input type="text" name="first_name"><br>
