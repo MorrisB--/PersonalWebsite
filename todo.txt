@@ -20,7 +20,6 @@ To Do:
 
 /* Contact Div */
 
-* Change PHP so it doesn't print at the top of the page
 * Style the form
 * Add GitHub link
 
