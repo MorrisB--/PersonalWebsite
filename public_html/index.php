@@ -21,15 +21,23 @@ if(isset($_POST['submit'])){
     	if (first_name != '' && $user_email != '' && last_name != '') {
     		if ($human == '4') {
 		mail ( $to, $subject, $message, $headers );
-    			echo '<p>Your message has been sent!</p>';
+    			echo "<script>
+    					alert('Your message has been sent!');
+    					</script>";
     			} else {
-    				echo '<p>Something went wrong, go back and try again!</p>';
+    				echo "<script>
+    						alert('Something went wrong, go back and try again!');
+    						</script>";
     			}
     		} else if ($_POST['submit'] && $human != '4') {
-    			echo '<p>You answered the anti-spam question incorrectly!</p>';
+    			echo "<script>
+    					alert('You answered the anti-spam question incorrectly!');
+    					</script>";
     		}
     	} else {
-    		echo '<p>You need to fill in all required fields!!</p>';
+    		echo "<script>
+    				alert('You need to fill in all required fields!');
+    				</script>";
     	}
     }
 
