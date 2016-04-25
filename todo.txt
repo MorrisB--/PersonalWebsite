@@ -20,10 +20,6 @@ To Do:
 
 /* Contact Div */
 
-* Find Submit button image
-* Change PHP so it doesn't print at the top of the page
-* Style the form
-* Add GitHub link
 
 
 Not too important stuff:

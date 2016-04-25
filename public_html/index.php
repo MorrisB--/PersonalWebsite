@@ -21,15 +21,23 @@ if(isset($_POST['submit'])){
     	if (first_name != '' && $user_email != '' && last_name != '') {
     		if ($human == '4') {
 		mail ( $to, $subject, $message, $headers );
-    			echo '<p>Your message has been sent!</p>';
+    			echo "<script>
+    					alert('Your message has been sent!');
+    					</script>";
     			} else {
-    				echo '<p>Something went wrong, go back and try again!</p>';
+    				echo "<script>
+    						alert('Something went wrong, go back and try again!');
+    						</script>";
     			}
     		} else if ($_POST['submit'] && $human != '4') {
-    			echo '<p>You answered the anti-spam question incorrectly!</p>';
+    			echo "<script>
+    					alert('You answered the anti-spam question incorrectly!');
+    					</script>";
     		}
     	} else {
-    		echo '<p>You need to fill in all required fields!!</p>';
+    		echo "<script>
+    				alert('You need to fill in all required fields!');
+    				</script>";
     	}
     }
 
@@ -229,16 +237,36 @@ if(isset($_POST['submit'])){
 
 		</div>
 
-		<div id="Contact">
-			<form action="" method="post">
-			First Name: <input type="text" name="first_name"><br>
-			Last Name: <input type="text" name="last_name"><br>
-			Email: <input type="text" name="email"><br>
-			Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-			What is 2+2: <input type="text" name="human"><br>
+
+
+
+
+		<div class="title" style="margin-bottom:100px">
+			<p>
+				CONTACT
+			</p>
+		</div>
+		<div style="width:50%; float: left;	font-size: 1.1em;">
+		<p style="float:right; padding-right:10%; width: 540px;">
+		<span style="font-weight: bold">Chicago, IL 60654<br /><br /></span>
+		I currently live in Chicago and am interested in opportunities in the Chicagoland area until I graduate.
+		If you are interested in working with me please fill out the form on the right and I will get back to you as soon as possible.
+		And free to follow me on GitHub!<br />
+		<a href="https://github.com/MorrisB--" target="_blank"><img src ="images/GitHubIcon.png" style="margin-right:40%;margin-top:25px;float:right;" class="gitHubImage"/></a>
+		</p>
+		</div>
+		
+		<div id="Contact" style="width:50%; float:right;font-size: 1.1em;margin-bottom:100px">
+			<form action="" method="post" style="padding-left: 10%">
+			<input type="text" name="first_name" placeholder="First Name"><br>
+			<input type="text" name="last_name" placeholder="Last Name"><br>
+			<input type="text" name="email" placeholder="Email"><br>
+			<textarea rows="5" name="message" cols="30" placeholder="Message"></textarea><br>
+			What is 2+2? <br />
+			<input type="text" name="human"><br>
             
-            <input id="submit" name="submit" type="submit" value="Submit">
-</form> 
+            <input id="submit" name="submit" type="submit" value="Submit" class="submit">
+			</form> 
 		</div>
 
 	</body>

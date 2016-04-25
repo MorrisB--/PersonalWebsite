@@ -155,3 +155,39 @@ figcaption {
 	text-align:center;
 }
 
+
+/* Contact */
+
+input, textarea {
+    width:440px;
+    height:50px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    border-radius:5px;
+}
+
+textarea {
+	height:200px;
+}
+
+.submit {
+  background: #33ccff;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background: #3cb0fd;
+}
+
+.gitHubImage:hover {
+	opacity: 0.7;
+}
