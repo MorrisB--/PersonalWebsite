@@ -252,7 +252,7 @@ if(isset($_POST['submit'])){
 			Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
 			What is 2+2: <input type="text" name="human"><br>
             
-            <input id="submit" name="submit" type="submit" value="Submit">
+            <input id="submit" name="submit" type="submit" value="Submit" class="btn">
 			</form> 
 		</div>
 
