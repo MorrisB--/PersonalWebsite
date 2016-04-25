@@ -240,12 +240,12 @@ if(isset($_POST['submit'])){
 		</div>
 		<div style="width:50%; float: left">
 		<p style="float:right; padding-right:10%">Feel free to follow me on GitHub!<br />
-		<img src ="images/GitHubIcon.png" style="padding-right:20%;margin-top:100px;"/>
+		<img src ="images/GitHubIcon.png" style="padding-right:10%;margin-top:100px;"/>
 		</p>
 		</div>
 		
 		<div id="Contact" style="width:50%; float:right">
-			<form action="" method="post" style="margin:auto">
+			<form action="" method="post" style="padding-left: 10%">
 			First Name: <input type="text" name="first_name"><br>
 			Last Name: <input type="text" name="last_name"><br>
 			Email: <input type="text" name="email"><br>
