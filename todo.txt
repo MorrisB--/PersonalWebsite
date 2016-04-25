@@ -20,8 +20,6 @@ To Do:
 
 /* Contact Div */
 
-* Style the form
-* Add GitHub link
 
 
 Not too important stuff:
