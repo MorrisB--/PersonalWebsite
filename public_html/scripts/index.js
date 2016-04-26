@@ -50,7 +50,7 @@ $(document).ready(
 				$("#SQLDiv").addClass("active");				
 
 			});
-			
+			/*
 			$("#rentalsDatabaseImg").mouseenter(function()
 					{
 					    $(this).fadeOut("fast");
@@ -60,6 +60,6 @@ $(document).ready(
 					{
 					    $("#rentalsDatabaseImg").fadeIn("fast");
 					});
-
+*/
 		});
 // replace active with the clicked one and then change the clicked one to active

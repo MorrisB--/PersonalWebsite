@@ -141,6 +141,10 @@ body {
 
 /* Projects */
 
+h1 {
+	font-weight:bold;
+}
+
 .divProjects {
 	width: 1300px;
 	margin: auto;
@@ -148,7 +152,17 @@ body {
 
 #SQLDiv {
 padding-top:10%;
-background-color:white;
+background-color:#ecd9c6;
+}
+
+#JavaScriptDiv {
+padding-top:10%;
+background-color:#ecd9c6;
+}
+
+#JavaDiv {
+padding-top:10%;
+background-color:#ecd9c6;
 }
 
 figcaption {
