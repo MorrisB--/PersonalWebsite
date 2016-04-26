@@ -225,7 +225,7 @@ if(isset($_POST['submit'])){
 		<span style="font-weight: bold">Chicago, IL 60654<br /><br /></span>
 		I currently live in Chicago and am interested in opportunities in the Chicagoland area until I graduate.
 		If you are interested in working with me please fill out the form on the right and I will get back to you as soon as possible.
-		And free to follow me on GitHub!<br />
+		Also feel free to follow me on GitHub!<br />
 		<a href="https://github.com/MorrisB--" target="_blank"><img src ="images/GitHubIcon.png" style="margin-right:40%;margin-top:25px;float:right;" class="gitHubImage"/></a>
 		</p>
 		</div>
