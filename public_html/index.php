@@ -65,7 +65,10 @@ if(isset($_POST['submit'])){
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="jquery.hexagonprogress.js"></script>
 		<script src="scripts/index.js"></script>
+		<script src="scripts/jquery.hexagonprogress.js"></script>
+		
 
 	</head>
 
@@ -114,12 +117,28 @@ if(isset($_POST['submit'])){
 			</p>
 		</div>
 
+
 		<div id="Skills">
 
 			<div class="title">
 				<p>
 					SKILLS
 				</p>
+			</div>
+			<div style="width: 1850px;padding-left:200px;padding-top:100px">
+				<div style="float:left">
+				<p id="helloTraits" style="margin-top:35%; margin-right:50px; color:gold">&nbsp;My favorites:&nbsp;</p>
+				</div>
+				<div id="javaProgress" style="width:350px; float:left">
+				<p style="text-align: center; width: 250px">Java</p>
+				</div>
+				<div id="sqlProgress" style="width:350px; float:left">
+				<p style="text-align: center; width: 250px">SQL</p>
+				</div>
+				<div id="jsProgress" style="width:350px; float:left">
+				<p style="text-align: center; width: 250px">JavaScript/jQuery</p>
+				</div>
+				<br style="clear: left;" />
 			</div>
 			<div id="skillsBrackets">
 				<div>
