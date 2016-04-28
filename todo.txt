@@ -1,36 +1,27 @@
 To Do:
 
-* Finalize margin between main divs
-
-
-/* Hello Div */
-
-* Create Photoshop picture for main image, or find temp image
-  * Consider new logo
-
 
 /* Skills Div */
 
-* Update skills
 * Adjust hexagons to have padding-left at a percentage so it will look nicer on smaller resolutions
-* Bold skills and software text
+
 
 /* Projects Div */
 
-* Finalize how buttons look
-* Consider making titles link to repository
 * Add description for images when hovering over them
-* Add final projects and screen shots
-* Finalize text
 
 
-/* Contact Div */
 
-* Finalize text
 
 Not too important stuff:
 
 * Find a way to import PHP into index.php, so that can be changed back to index.html
+
+
+
+Website 1.5:
+
+Move all CSS to stylesheet
 
 
 
