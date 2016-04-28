@@ -74,7 +74,7 @@ if(isset($_POST['submit'])){
 
 	<body>
 
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" style="position:fixed; top: 0; width: 100%;">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
