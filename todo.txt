@@ -1,32 +1,27 @@
 To Do:
 
-* Update skills
-
-
-/* Hello Div */
-
-* Create Photoshop picture for main image, or find temp image
-  * Consider new logo
-
 
 /* Skills Div */
 
 * Adjust hexagons to have padding-left at a percentage so it will look nicer on smaller resolutions
 
+
 /* Projects Div */
 
-* Make titles link to repository
 * Add description for images when hovering over them
 
-
-/* Contact Div */
 
 
 
 Not too important stuff:
 
 * Find a way to import PHP into index.php, so that can be changed back to index.html
-* Consider using a lighter grey
+
+
+
+Website 1.5:
+
+Move all CSS to stylesheet
 
 
 
