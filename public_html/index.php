@@ -168,15 +168,15 @@ if(isset($_POST['submit'])){
 			</div>
 		</div>
 
-		<div id="Projects" style="margin-bottom: 120px">
+		<div id="Projects" style="padding-bottom: 120px; background-color:#84cae1">
 			<div class="title"><p>PROJECTS</p></div>
 			<div style="text-align:center; padding-top: 20px; font-size:60px; font-weight:bold; padding-top:100px;">
-				<a href="javascript:;" id="Java">Java</a>
-				<a href="javascript:;" id="JavaScript" style="margin:100px">JavaScript</a>
-				<a href="javascript:;" id="SQL">SQL</a>
+				<a href="javascript:;" id="Java" style="background-color:black; color: #e67300; font-size: 100%;">&nbsp;Java&nbsp;</a>
+				<a href="javascript:;" id="JavaScript" style="background-color:black; color: #e67300; font-size: 100%; margin: 100px">&nbsp;JavaScript&nbsp;</a>
+				<a href="javascript:;" id="SQL" style="background-color:black; color: #e67300; font-size: 100%;">&nbsp;SQL&nbsp;</a>
 			</div>
 			<div id="JavaDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#ecd9c6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/collections.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
@@ -185,15 +185,15 @@ if(isset($_POST['submit'])){
 						<figcaption>Java</figcaption>
 					</figure>
 				</div>
-				<div style="width:45%; float:right; background-color:#ecd9c6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1>Collections Framework</h1><br />
+				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
+				<h1><span style="background-color: black; color: gold">&nbsp;Collections Framework&nbsp;</span></h1><br />
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
 			</div>
 			<div id="JavaScriptDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#ecd9c6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:55%; float:left; background-color:#cccccc; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/javascript.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
@@ -203,7 +203,7 @@ if(isset($_POST['submit'])){
 					</figure>
 				</div>
 				<div style="width:45%; float:right; background-color:#ecd9c6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1>Personal Website</h1><br />
+				<h1><span style="background-color: black; color: gold">&nbsp;Personal Website&nbsp;</span></h1><br />
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
@@ -220,7 +220,7 @@ if(isset($_POST['submit'])){
 					</figure>
 				</div>
 				<div style="width:45%; float:right; background-color:#ecd9c6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1>Rentals Database</h1><br />
+				<h1><span style="background-color: black; color: gold">&nbsp;Rentals Database&nbsp;</span></h1><br />
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
@@ -241,7 +241,7 @@ if(isset($_POST['submit'])){
 		</div>
 		<div style="width:50%; float: left;	font-size: 1.1em;">
 		<p style="float:right; padding-right:10%; width: 540px;">
-		<span style="font-weight: bold">Chicago, IL 60654<br /><br /></span>
+		<span style="font-weight: bold;background-color: black; color: gold; font-size:150%">&nbsp;Chicago, IL 60654&nbsp;<br /><br /></span>
 		I currently live in Chicago and am interested in opportunities in the Chicagoland area until I graduate.
 		If you are interested in working with me please fill out the form on the right and I will get back to you as soon as possible.
 		Also feel free to follow me on GitHub!<br />

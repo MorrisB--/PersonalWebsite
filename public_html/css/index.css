@@ -1,5 +1,5 @@
 body {
-	background-color: #aeaeae;
+	background-color: #cccccc;
 	margin: 0;
 	padding: 0;
 	font-size: 17px;
@@ -24,7 +24,7 @@ body {
 	border-radius: 0;
 }
 .navbar-default {
-	background-color: #aeaeae;
+	background-color: #8c8c8c;
 	border-color: #6b9fd0;
 }
 .navbar-default .navbar-brand {
@@ -71,7 +71,8 @@ body {
 
 #Hello {
 	background-color: #33ccff;
-	padding: 6% 25%;
+	/* padding is 10% on top to make up for the navbar */
+	padding: 10% 25% 6%;
 	margin-top: -20px;
 	line-height: 200%;
 }
@@ -152,7 +153,7 @@ h1 {
 
 #SQLDiv {
 padding-top:10%;
-background-color:#ecd9c6;
+background-color:#cccccc;
 }
 
 #JavaScriptDiv {
@@ -162,7 +163,7 @@ background-color:#ecd9c6;
 
 #JavaDiv {
 padding-top:10%;
-background-color:#ecd9c6;
+background-color:#e6e6e6;
 }
 
 figcaption {
@@ -175,7 +176,6 @@ figcaption {
 input, textarea {
     width:440px;
     height:50px;
-    background:#efefef;
     border:1px solid #dedede;
     padding:10px;
     margin-top:3px;
