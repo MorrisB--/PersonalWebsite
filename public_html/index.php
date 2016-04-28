@@ -146,7 +146,7 @@ if(isset($_POST['submit'])){
 				</div>
 				<div id="skillsBracketsText">
 					<p>
-						Languages</br>
+						<b>Languages</b><br>
 						Java/Spring MVC, JavaScript/jQuery, SQL, HTML, CSS, C++
 					</p>
 				</div>
@@ -157,7 +157,7 @@ if(isset($_POST['submit'])){
 				</div>
 				<div id="skillsSoftwareText">
 					<p>
-						Software</br>
+						<b>Software</b><br>
 						Eclipse, Git, Photoshop CS6, Dreamweaver CS6, Premier CS6
 					</p>
 				</div>
@@ -176,7 +176,7 @@ if(isset($_POST['submit'])){
 				<a href="javascript:;" id="SQL" style="background-color:#92c3d3; color: black; font-size: 100%; border-style:solid;">&nbsp;SQL&nbsp;</a>
 			</div>
 			<div id="JavaDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/collections.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
@@ -193,7 +193,7 @@ if(isset($_POST['submit'])){
 				<div style="clear:both;"></div>
 			</div>
 			<div id="JavaScriptDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/javascript.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
@@ -210,7 +210,7 @@ if(isset($_POST['submit'])){
 				<div style="clear:both;"></div>
 			</div>
 			<div id="SQLDiv" class="divProjects" style="background-color: #e6e6e6">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:200px;/* padding-left:20%; padding-right:10%*/">
+				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
