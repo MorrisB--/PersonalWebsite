@@ -11,7 +11,7 @@ To Do:
 
 /* Skills Div */
 
-
+* Adjust hexagons to have padding-left at a percentage so it will look nicer on smaller resolutions
 
 /* Projects Div */
 
