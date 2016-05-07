@@ -125,7 +125,7 @@ if(isset($_POST['submit'])){
 					SKILLS
 				</p>
 			</div>
-			<div style="width: 1850px;padding-left:200px;padding-top:100px">
+			<div class="favorites">
 				<div style="float:left">
 				<p style="font-size:200%; margin-top:30%; margin-right:50px; color:gold; font-weight: bold; background-color: #696969; border-style:solid; border-color:black">&nbsp;My favorites:&nbsp;</p>
 				</div>
@@ -135,7 +135,7 @@ if(isset($_POST['submit'])){
 				<div id="sqlProgress" style="width:350px; float:left">
 				<p style="text-align: center; width: 250px">SQL</p>
 				</div>
-				<div id="jsProgress" style="width:350px; float:left">
+				<div id="jsProgress" style="width:250px; float:left">
 				<p style="text-align: center; width: 250px">JavaScript/jQuery</p>
 				</div>
 				<br style="clear: left;" />

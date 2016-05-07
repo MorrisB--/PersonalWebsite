@@ -140,6 +140,15 @@ body {
 	width: 300px;
 }
 
+.favorites {
+	width: 1555px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1549px) {
+	.favorites {
+		width: 1258px;
+	}
 /* Projects */
 
 h1 {
