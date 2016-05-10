@@ -147,7 +147,7 @@ if(isset($_POST['submit'])){
 				<div id="skillsBracketsText">
 					<p>
 						<b>Languages</b><br>
-						Java/Spring MVC, JavaScript/jQuery, SQL, HTML, CSS, C++
+						Java, JavaScript/jQuery, SQL, HTML, CSS
 					</p>
 				</div>
 			</div>
@@ -158,13 +158,13 @@ if(isset($_POST['submit'])){
 				<div id="skillsSoftwareText">
 					<p>
 						<b>Software</b><br>
-						Eclipse, Git, Photoshop CS6, Dreamweaver CS6, Premier CS6
+						Eclipse, Git, MySQL Workbench, Photoshop CS6
 					</p>
 				</div>
 			</div>
 			<div style="text-align:center; padding-top:550px; font-size:1.2em">
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">In Progress:</span> PHP, MySQL, Design of Algorithms</p>
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">Coming Soon:</span> C#, ASP.NET, Visual Basic and much more!</p>
+				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">In Progress:</span> PHP, Algorithms, Bootstrap</p>
+				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">Coming Soon:</span> C#, ASP.NET, Visual Basic, AngularJS, and much more!</p>
 			</div>
 		</div>
 
