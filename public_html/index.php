@@ -194,7 +194,7 @@ if(isset($_POST['submit'])){
 			<div id="JavaScriptDiv" class="divProjects">
 				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
-						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
+						<a href="https://github.com/MorrisB--/GameOfLife" target="_blank">
 						<img src="images/gameOfLife.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
 						</a>
 						<figcaption>JavaScript</figcaption>

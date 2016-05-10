@@ -4,7 +4,6 @@
 
 $(document).ready(
 		function() {
-			alert("Website currently under construction.");
 			$(".divProjects").hide();
 			$("#JavaDiv").show().addClass("active");
 
