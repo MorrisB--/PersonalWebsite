@@ -201,7 +201,7 @@ if(isset($_POST['submit'])){
 					</figure>
 				</div>
 				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Personal Website&nbsp;</span></h1><br />
+				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Game of Life&nbsp;</span></h1><br />
 					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
@@ -218,7 +218,7 @@ if(isset($_POST['submit'])){
 				</div>
 				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
 				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Rentals Database&nbsp;</span></h1><br />
-					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
+					<p>This is a database that can handle rentals for multiple stores. SQL is used to manipulated the tables and provide information, white Java is used to provide the user interface.</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
