@@ -1,11 +1,6 @@
 To Do:
 
 
-/* Game of Life */
-
-* Import GameOfLife.js and make page look nice.
-
-
 /* Projects Div */
 
 * Add description for images when hovering over them
