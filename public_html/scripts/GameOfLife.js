@@ -1,5 +1,3 @@
-alert("Entered");
-
 var cellSize = 6;
 var numCells = 100;
 var canvas = document.getElementById('gameBackground');
@@ -67,9 +65,9 @@ function lifeCycle(array) {
 
 function livingNeighbors(array, x, y) {
 	if (x > 0 && y > 0 && x < numCells - 1 && y < numCells - 1) {
-		var totalAlive = array[x - 1][y - 1] + array[x][y - 1] + array[x + 1][y - 1]
-				+ array[x - 1][y] + array[x + 1][y] + array[x - 1][y + 1]
-				+ array[x][y + 1] + array[x + 1][y + 1];
+		var totalAlive = array[x - 1][y - 1] + array[x][y - 1]
+				+ array[x + 1][y - 1] + array[x - 1][y] + array[x + 1][y]
+				+ array[x - 1][y + 1] + array[x][y + 1] + array[x + 1][y + 1];
 		return totalAlive;
 	} else
 		return 0;
