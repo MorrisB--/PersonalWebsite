@@ -180,14 +180,13 @@ if(isset($_POST['submit'])){
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/collections.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
-						<!-- <img id="rentalsDatabaseFadedImg" src="http://placehold.it/640x360" alt="ENTER ALT HERE" style="width:640px; height:360px;">-->
 						</a>
 						<figcaption>Java</figcaption>
 					</figure>
 				</div>
 				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
 				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Collections Framework&nbsp;</span></h1><br />
-					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
+					<p>This is my implementation of the Java Collections Framework. This framework contains a Linked List, Stack, Queue, Binary Search Tree, and Hash Table data structures.</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
@@ -197,7 +196,6 @@ if(isset($_POST['submit'])){
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img src="images/javascript.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
-						<!-- <img id="rentalsDatabaseFadedImg" src="http://placehold.it/640x360" alt="ENTER ALT HERE" style="width:640px; height:360px;">-->
 						</a>
 						<figcaption>JavaScript | jQuery</figcaption>
 					</figure>
@@ -214,7 +212,6 @@ if(isset($_POST['submit'])){
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
 						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
-						<!-- <img id="rentalsDatabaseFadedImg" src="http://placehold.it/640x360" alt="ENTER ALT HERE" style="width:640px; height:360px;">-->
 						</a>
 						<figcaption>SQL | Java</figcaption>
 					</figure>
