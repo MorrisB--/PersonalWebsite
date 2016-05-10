@@ -195,14 +195,14 @@ if(isset($_POST['submit'])){
 				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
 					<figure style="padding-right: 0%; float: right">
 						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
-						<img src="images/javascript.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
+						<img src="images/gameOfLife.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
 						</a>
-						<figcaption>JavaScript | jQuery</figcaption>
+						<figcaption>JavaScript</figcaption>
 					</figure>
 				</div>
 				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
 				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Game of Life&nbsp;</span></h1><br />
-					<p>This is a database that can handle rentals for multiple stores. It has various views for different needs. ADD MORE TEXT</p>
+					<p>This is my implementation of Conway's Game of Life. It is a game of cellular automaton where its evolution is determined by its initial state.</p>
 				</div>
 				<!-- This is so the inner divs will both adjust the size of the outer div -->
 				<div style="clear:both;"></div>
