@@ -1,5 +1,6 @@
 To Do:
 
+*** CREATE AND ADD favicon.ico
 
 /* Projects Div */
 
