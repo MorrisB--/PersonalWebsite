@@ -163,8 +163,8 @@ if(isset($_POST['submit'])){
 				</div>
 			</div>
 			<div style="text-align:center; padding-top:550px; font-size:1.2em">
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">In Progress:</span> PHP, Algorithms, Bootstrap</p>
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">Coming Soon:</span> C#, ASP.NET, Visual Basic, AngularJS, and much more!</p>
+				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">In Progress:</span> PHP, Algorithms, Bootstrap, C#, Unity 3D</p>
+				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">Coming Soon:</span> ASP.NET, Visual Basic, AngularJS, XML, and much more!</p>
 			</div>
 		</div>
 
