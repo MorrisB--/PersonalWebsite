@@ -80,7 +80,6 @@ body {
 }
 
 /* Hello Div */
-
 #Hello {
 	background-color: #33ccff;
 	/* padding is 10% on top to make up for the navbar */
@@ -107,6 +106,33 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 200%;
+}
+
+#hello-mobile {
+	display: none;
+}
+
+@media ( max-width : 620px) {
+	#helloHello {
+		font-size: 200%;
+	}
+	#helloName {
+		font-size: 200%;
+		line-height: 0%;
+	}
+	#helloTraits {
+		font-size: 150%;
+		line-height: 0%;
+	}
+}
+
+@media ( max-width : 483px) {
+	#hello-desktop {
+		display: none;
+	}
+	#hello-mobile {
+		display: block;
+	}
 }
 
 /* Skills Div */

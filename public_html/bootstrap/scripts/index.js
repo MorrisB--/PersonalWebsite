@@ -9,16 +9,30 @@ $(document).ready(
 
 			/* Hello */
 
-			var spans = $('span[id^="trait-"]').hide(), i = 0;
+			var windowWidth = $(window).width();
+			if (windowWidth >= 483) {
+				var spans = $('span[id^="trait-"]').hide(), i = 0;
 
-			(function cycle() {
+				(function cycle() {
 
-				spans.eq(i).fadeIn(400).delay(3000).fadeOut(400, cycle).css(
-						"color", "yellow");
+					spans.eq(i).fadeIn(400).delay(3000).fadeOut(400, cycle)
+							.css("color", "yellow");
 
-				i = ++i % spans.length;
+					i = ++i % spans.length;
 
-			})();
+				})();
+			} else {
+				var spans = $('span[id^="trait-mobile-"]').hide(), i = 0;
+
+				(function cycle() {
+
+					spans.eq(i).fadeIn(400).delay(3000).fadeOut(400, cycle)
+							.css("color", "yellow");
+
+					i = ++i % spans.length;
+
+				})();
+			}
 
 			/* Skills */
 
