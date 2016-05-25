@@ -1,5 +1,4 @@
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -60,11 +59,17 @@
 				</div>
 			</div>
 		</nav>
+<div>
+<div class="container-fluid"> <!-- style="padding: 0" May not be needed once you declare row-->
 
-		<div id="Hello">
-			<p>
-				<span id="helloHello">&nbsp;Hello </span>
-				<br />
+		<!-- Hello -->
+
+		<div class="row" id="Hello">
+			<div class="col-lg-9 col-md-10 col-sm-11 col-xs-12" style="float:right;">
+				<h1><span id="helloHello">&nbsp;Hello&nbsp;</span></h1>
+								<div id="hello-desktop">
+				
+				<p>
 				<span id="helloName">&nbsp;I go by <b>Morris</b>, </span>
 				<br />
 				<span id="helloTraits">&nbsp;I currently work as <i>Technical Support</i>
@@ -72,9 +77,21 @@
 					&nbsp;for <i>Themis Bar Review</i>
 					<br />
 					&nbsp;I like <span id="trait-1">Java</span><span id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span id="trait-4">Apple Fritters</span><span id="trait-5">Mountain Biking</span>.
-			</span></p>
+			</span></p></div>
 		</div>
-
+		<div id="hello-mobile">
+				
+				<p>
+				<span id="helloName">&nbsp;I go by <b>Morris</b>, </span>
+				<br />
+				<span id="helloTraits">&nbsp;I currently work as&nbsp;<br><i>&nbsp;Technical Support&nbsp;</i>
+					<br />
+					&nbsp;for <i>Themis Bar Review</i>
+					<br />
+					&nbsp;I like <span id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple Soda</span><span id="trait-mobile-3">Snowboarding</span><span id="trait-mobile-4">Apple Fritters</span><span id="trait-mobile-5">Mountain Biking</span>.
+			</span></p></div>
+		</div>
+</div>
 
 		<div id="Skills">
 
@@ -216,6 +233,7 @@
             <input id="submit" name="submit" type="submit" value="Submit" class="submit">
 			</form> 
 		</div>
-
+</div>
+</div>
 	</body>
 </html>

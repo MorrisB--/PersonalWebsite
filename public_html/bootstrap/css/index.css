@@ -79,17 +79,18 @@ body {
 	}
 }
 
-/* Hello Div */
+/* 
+ * Hello Div
+ */
 #Hello {
 	background-color: #33ccff;
-	/* padding is 10% on top to make up for the navbar */
-	padding: 10% 25% 6%;
-	margin-top: -20px;
+	margin-top: 50px; /* This is for the navbar */
+	padding: 6% 0px 6%;
 	line-height: 200%;
 }
 
 #helloHello {
-	font-size: 500%;
+	font-size: 300%;
 	line-height: 120%;
 	color: white;
 	background-color: black;
@@ -106,6 +107,34 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 200%;
+}
+
+#hello-mobile {
+	display: none;
+}
+
+@media ( max-width : 620px) {
+	#helloHello {
+		font-size: 200%;
+	}
+	#helloName {
+		font-size: 200%;
+		line-height: 0%;
+	}
+	#helloTraits {
+		font-size: 150%;
+		line-height: 0%;
+	}
+}
+
+@media ( max-width : 483px) {
+	#hello-desktop {
+		display: none;
+	}
+	#hello-mobile {
+		display: block;
+		margin-left: 15px;
+	}
 }
 
 /* Skills Div */
