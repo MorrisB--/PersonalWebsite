@@ -80,16 +80,17 @@ body {
 }
 
 /* Hello Div */
+
 #Hello {
 	background-color: #33ccff;
 	/* padding is 10% on top to make up for the navbar */
-	padding: 10% 25% 6%;
+	/* padding: 10% 25% 6%; */
 	margin-top: -20px;
 	line-height: 200%;
 }
 
 #helloHello {
-	font-size: 500%;
+	font-size: 300%;
 	line-height: 120%;
 	color: white;
 	background-color: black;
