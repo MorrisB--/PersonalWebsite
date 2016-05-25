@@ -1,0 +1,235 @@
+body {
+	background-color: #cccccc;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-family: "Arial", "Verdana", serif;
+}
+
+.title {
+	padding: 2% 0%;
+	background-color: white;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+/* Navigation Bar */
+#myNavbar {
+	float: right;
+	padding-right: 20%
+}
+
+.navbar {
+	padding-left: 10%;
+	border-radius: 0;
+}
+
+.navbar-default {
+	background-color: #8c8c8c;
+	border-color: #6b9fd0;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #151313;
+}
+
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #151313;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #6b9fd0;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #6b9fd0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+	color: #151313;
+}
+
+@media ( max-width : 767px) {
+	.navbar {
+		padding: 0;
+	}
+}
+
+/* Hello Div */
+#Hello {
+	background-color: #33ccff;
+	/* padding is 10% on top to make up for the navbar */
+	padding: 10% 25% 6%;
+	margin-top: -20px;
+	line-height: 200%;
+}
+
+#helloHello {
+	font-size: 500%;
+	line-height: 120%;
+	color: white;
+	background-color: black;
+}
+
+#helloName {
+	font-size: 300%;
+	color: white;
+	line-height: 140%;
+	background-color: black;
+}
+
+#helloTraits {
+	background-color: black;
+	color: white;
+	font-size: 200%;
+}
+
+/* Skills Div */
+#Skills {
+	font-size: 1.1em;
+	padding-bottom: 100px;
+}
+
+#skillsBrackets {
+	width: 50%;
+	float: left;
+	padding-right: 5%;
+	padding-top: 50px;
+}
+
+#skillsBrackets img {
+	float: right;
+	width: 100%;
+}
+
+#skillsBracketsText {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#skillsBracketsText p {
+	text-align: center;
+	width: 309px;
+	float: right;
+}
+
+#skillsSoftware {
+	width: 50%;
+	float: right;
+	padding-left: 5%;
+	padding-top: 50px;
+}
+
+#skillsSoftware img {
+	width: 100%;
+	float: left;
+}
+
+#skillsSoftwareText {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#skillsSoftwareText p {
+	text-align: center;
+	width: 300px;
+}
+
+.favorites {
+	width: 1555px;
+	margin: 0 auto;
+}
+
+@media ( max-width : 1549px) {
+	.favorites {
+		width: 1258px;
+	}
+}
+/* Projects */
+h1 {
+	font-weight: bold;
+}
+
+.divProjects {
+	width: 1300px;
+	margin: auto;
+}
+
+#SQLDiv {
+	padding-top: 100px;
+	background-color: #e6e6e6;
+}
+
+#JavaScriptDiv {
+	padding-top: 100px;
+	background-color: #e6e6e6;
+}
+
+#JavaDiv {
+	padding-top: 100px;
+	background-color: #e6e6e6;
+}
+
+figcaption {
+	text-align: center;
+}
+
+/* Contact */
+input, textarea {
+	width: 440px;
+	height: 50px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+	border-radius: 5px;
+}
+
+textarea {
+	height: 200px;
+}
+
+.submit {
+	background: #33ccff;
+	border-radius: 5px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.submit:hover {
+	background: #3cb0fd;
+}
+
+.gitHubImage:hover {
+	opacity: 0.7;
+}

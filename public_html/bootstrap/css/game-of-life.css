@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #33ccff;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+	font-family: "Arial", "Verdana", serif;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 120%;
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 100px
+}
+
+div {
+	display: block;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto
+}
+
+.gameBoardContainer {
+	float: left;
+}
+
+.textContainer {
+	float: right;
+}
+
+p {
+	width: 600px;
+	margin-top: 100px;
+}
+
+a {
+	background-color: #92c3d3;
+	color: black;
+	font-size: 1.4em;
+	border-style: solid;
+	padding: 5px;
+}
