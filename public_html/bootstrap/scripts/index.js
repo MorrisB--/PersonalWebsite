@@ -10,7 +10,7 @@ $(document).ready(
 			/* Hello */
 
 			var windowWidth = $(window).width();
-			if (windowWidth >= 483) {
+			if (windowWidth >= 467) {
 				var spans = $('span[id^="trait-"]').hide(), i = 0;
 
 				(function cycle() {

@@ -84,7 +84,8 @@ body {
 	background-color: #33ccff;
 	/* padding is 10% on top to make up for the navbar */
 	/* padding: 10% 25% 6%; */
-	margin-top: -20px;
+	margin-top: 50px; /* This is for the navbar */
+	padding: 6% 0px 6%;
 	line-height: 200%;
 }
 
@@ -132,6 +133,7 @@ body {
 	}
 	#hello-mobile {
 		display: block;
+		margin-left: 15px;
 	}
 }
 
