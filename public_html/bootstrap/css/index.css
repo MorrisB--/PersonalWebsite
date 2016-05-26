@@ -90,7 +90,7 @@ body {
 }
 
 .hello-col {
-		float: right;
+	float: right;
 }
 
 #helloHello {
@@ -193,16 +193,51 @@ body {
 	width: 300px;
 }
 
+/* fav-xl */
 .favorites {
 	width: 1555px;
 	margin: 0 auto;
 }
 
+.favorites div {
+	float: left;
+}
+
+.favorites h1 {
+	font-size: 200%;
+	margin-top: 30%;
+	margin-right: 50px;
+	color: gold;
+	font-weight: bold;
+	background-color: #696969;
+	border-style: solid;
+	border-color: black;
+}
+
+.favorites p {
+	text-align: center;
+	width: 250px;
+}
+
+#javaProgress {
+	width: 350px;
+}
+
+#sqlProgress {
+	width: 350px;
+}
+
+#jsProgress {
+	width: 250px;
+}
+
+/* fav-lg */
 @media ( max-width : 1549px) {
 	.favorites {
 		width: 1258px;
 	}
 }
+
 /* Projects */
 h1 {
 	font-weight: bold;
