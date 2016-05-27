@@ -1,5 +1,7 @@
 To Do:
 
+* Update skills for sdlc
+
 *** CREATE AND ADD favicon.ico
 
 /* Projects Div */
