@@ -1,6 +1,5 @@
 To Do:
 
-* Finish Skills Div
 * Finish Projects Div
 * Finish Contact Div
 * Move navigation bar to higher z axis
