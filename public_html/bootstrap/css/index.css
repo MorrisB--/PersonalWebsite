@@ -157,7 +157,8 @@ body {
 
 #skillsBrackets img {
 	float: right;
-	width: 100%;
+	width: 300px;
+	height: 300px;
 }
 
 #skillsBracketsText {
@@ -180,7 +181,8 @@ body {
 }
 
 #skillsSoftware img {
-	width: 100%;
+	width: 300px;
+	height: 300px;
 	float: left;
 }
 
@@ -193,6 +195,52 @@ body {
 #skillsSoftwareText p {
 	text-align: center;
 	width: 300px;
+}
+
+@media ( max-width : 670px) {
+	#skillsBrackets {
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+		padding-right: 0%;
+		padding-top: 50px;
+		float: none;
+	}
+	#skillsBrackets img {
+		float: none;
+		width: 100%;
+	}
+	#skillsBracketsText {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	#skillsBracketsText p {
+		text-align: center;
+		width: 309px;
+		float: none;
+	}
+	#skillsSoftware {
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+		padding-left: 0%;
+		padding-top: 50px;
+		padding-left: 0%;
+	}
+	#skillsSoftware img {
+		width: 100%;
+		float: none;
+	}
+	#skillsSoftwareText {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	#skillsSoftwareText p {
+		text-align: center;
+		width: 300px;
+	}
 }
 
 /* fav-xl */
