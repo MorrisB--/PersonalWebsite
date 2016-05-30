@@ -198,7 +198,7 @@ body {
 /* fav-xl */
 .favorites {
 	width: 1555px;
-	margin: 0 auto;
+	margin: 50px auto 0;
 }
 
 .favorites div {
@@ -244,10 +244,20 @@ body {
 @media ( max-width : 1258px) {
 	.favorites {
 		width: 700px;
-		margin: 0 ;
+	}
+	.favorites h1 {
+		margin-right: 0px;
+		margin-top: 40%;
 	}
 	#javaProgress {
-		margin-left: 42.52px;
+		width: 250px;
+		margin-left: 192.52px;
+	}
+	#sqlProgress {
+		width: 250px;
+	}
+	#jsProgress {
+		margin-left: 200px;
 	}
 }
 
@@ -263,6 +273,13 @@ body {
 		margin: 50px auto 0;
 		font-size: 180%;
 		text-align: center;
+	}
+	#javaProgress {
+		width: 250px;
+		margin-left: 0px;
+	}
+	#jsProgress {
+		margin-left: 0px;
 	}
 }
 
