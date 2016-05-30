@@ -148,101 +148,6 @@ body {
 	padding-bottom: 100px;
 }
 
-#skills-brackets {
-	width: 50%;
-	float: left;
-	padding-right: 5%;
-	padding-top: 50px;
-}
-
-#skills-brackets img {
-	float: right;
-	width: 300px;
-	height: 300px;
-}
-
-#skills-brackets-text {
-	float: right;
-	width: 100%;
-	margin-top: 20px;
-}
-
-#skills-brackets-text p {
-	text-align: center;
-	width: 309px;
-	float: right;
-}
-
-#skills-software {
-	width: 50%;
-	float: right;
-	padding-left: 5%;
-	padding-top: 50px;
-}
-
-#skills-software img {
-	width: 300px;
-	height: 300px;
-	float: left;
-}
-
-#skills-software-text {
-	float: left;
-	width: 100%;
-	margin-top: 20px;
-}
-
-#skills-software-text p {
-	text-align: center;
-	width: 300px;
-}
-
-@media ( max-width : 670px) {
-	#skills-brackets {
-		width: 300px;
-		float: none;
-		margin: 0 auto;
-		padding-right: 0%;
-		padding-top: 50px;
-		float: none;
-	}
-	#skills-brackets img {
-		float: none;
-		width: 100%;
-	}
-	#skills-brackets-text {
-		float: none;
-		width: 100%;
-		margin-top: 20px;
-	}
-	#skills-brackets-text p {
-		text-align: center;
-		width: 309px;
-		float: none;
-	}
-	#skills-software {
-		width: 300px;
-		float: none;
-		margin: 0 auto;
-		padding-left: 0%;
-		padding-top: 50px;
-		padding-left: 0%;
-	}
-	#skills-software img {
-		width: 100%;
-		float: none;
-	}
-	#skills-software-text {
-		float: none;
-		width: 100%;
-		margin-top: 20px;
-	}
-	#skills-software-text p {
-		text-align: center;
-		width: 300px;
-	}
-}
-
 /* fav-xl */
 .favorites {
 	width: 1555px;
@@ -328,6 +233,119 @@ body {
 	}
 	#jsProgress {
 		margin-left: 0px;
+	}
+}
+
+.skills-brackets {
+	width: 50%;
+	float: left;
+	padding-right: 5%;
+	padding-top: 50px;
+}
+
+.skills-brackets img {
+	float: right;
+	width: 300px;
+	height: 300px;
+}
+
+.skills-brackets-text {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.skills-brackets-text p {
+	text-align: center;
+	width: 309px;
+	float: right;
+}
+
+.skills-software {
+	width: 50%;
+	float: right;
+	padding-left: 5%;
+	padding-top: 50px;
+}
+
+.skills-software img {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.skills-software-text {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.skills-software-text p {
+	text-align: center;
+	width: 300px;
+}
+
+@media ( max-width : 670px) {
+	.skills-brackets {
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+		padding-right: 0%;
+		padding-top: 50px;
+		float: none;
+	}
+	.skills-brackets img {
+		float: none;
+		width: 100%;
+	}
+	.skills-brackets-text {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.skills-brackets-text p {
+		text-align: center;
+		width: 309px;
+		float: none;
+	}
+	.skills-software {
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+		padding-left: 0%;
+		padding-top: 50px;
+		padding-left: 0%;
+	}
+	.skills-software img {
+		width: 100%;
+		float: none;
+	}
+	.skills-software-text {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.skills-software-text p {
+		text-align: center;
+		width: 300px;
+	}
+}
+
+.coming-soon {
+	text-align: center;
+	margin-top: 550px;
+	font-size: 1.2em;
+}
+
+.coming-soon span {
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: -1px -1px 5px white;
+}
+
+@media ( max-width : 670px) {
+	.coming-soon {
+		margin-top: 100px;
 	}
 }
 
