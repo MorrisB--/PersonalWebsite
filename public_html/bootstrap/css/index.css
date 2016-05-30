@@ -148,57 +148,57 @@ body {
 	padding-bottom: 100px;
 }
 
-#skillsBrackets {
+#skills-brackets {
 	width: 50%;
 	float: left;
 	padding-right: 5%;
 	padding-top: 50px;
 }
 
-#skillsBrackets img {
+#skills-brackets img {
 	float: right;
 	width: 300px;
 	height: 300px;
 }
 
-#skillsBracketsText {
+#skills-brackets-text {
 	float: right;
 	width: 100%;
 	margin-top: 20px;
 }
 
-#skillsBracketsText p {
+#skills-brackets-text p {
 	text-align: center;
 	width: 309px;
 	float: right;
 }
 
-#skillsSoftware {
+#skills-software {
 	width: 50%;
 	float: right;
 	padding-left: 5%;
 	padding-top: 50px;
 }
 
-#skillsSoftware img {
+#skills-software img {
 	width: 300px;
 	height: 300px;
 	float: left;
 }
 
-#skillsSoftwareText {
+#skills-software-text {
 	float: left;
 	width: 100%;
 	margin-top: 20px;
 }
 
-#skillsSoftwareText p {
+#skills-software-text p {
 	text-align: center;
 	width: 300px;
 }
 
 @media ( max-width : 670px) {
-	#skillsBrackets {
+	#skills-brackets {
 		width: 300px;
 		float: none;
 		margin: 0 auto;
@@ -206,21 +206,21 @@ body {
 		padding-top: 50px;
 		float: none;
 	}
-	#skillsBrackets img {
+	#skills-brackets img {
 		float: none;
 		width: 100%;
 	}
-	#skillsBracketsText {
+	#skills-brackets-text {
 		float: none;
 		width: 100%;
 		margin-top: 20px;
 	}
-	#skillsBracketsText p {
+	#skills-brackets-text p {
 		text-align: center;
 		width: 309px;
 		float: none;
 	}
-	#skillsSoftware {
+	#skills-software {
 		width: 300px;
 		float: none;
 		margin: 0 auto;
@@ -228,16 +228,16 @@ body {
 		padding-top: 50px;
 		padding-left: 0%;
 	}
-	#skillsSoftware img {
+	#skills-software img {
 		width: 100%;
 		float: none;
 	}
-	#skillsSoftwareText {
+	#skills-software-text {
 		float: none;
 		width: 100%;
 		margin-top: 20px;
 	}
-	#skillsSoftwareText p {
+	#skills-software-text p {
 		text-align: center;
 		width: 300px;
 	}
