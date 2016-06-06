@@ -238,7 +238,7 @@ if(isset($_POST['submit'])){
 		</div>
 		<div style="width:50%; float: left;	font-size: 1.1em;">
 		<p style="float:right; padding-right:10%; width: 540px;">
-		<span style="font-weight: bold;background-color: #696969; color: gold; font-size:150%; border-style:solid; border-color:black">&nbsp;Chicago, IL 60654&nbsp;</span><br /><br />
+		<span style="font-weight: bold;background-color: #696969; color: gold; font-size:150%; border-style:solid; border-color:black">&nbsp;Chicago, IL 60647&nbsp;</span><br /><br />
 		I currently live in Chicago and am interested in opportunities in the Chicagoland area until I graduate.
 		If you are interested in working with me please fill out the form on the right and I will get back to you as soon as possible.
 		Also feel free to follow me on GitHub!<br />
