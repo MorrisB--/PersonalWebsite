@@ -349,7 +349,14 @@ body {
 	}
 }
 
-/* Projects */
+/* 
+ * Projects 
+ */
+#Projects {
+	padding-bottom: 120px;
+	background-color: #84cae1;
+}
+
 h1 {
 	font-weight: bold;
 }
