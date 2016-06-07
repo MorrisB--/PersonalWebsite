@@ -382,6 +382,39 @@ h1 {
 	margin: auto;
 }
 
+.divProjects-image {
+	width: 55%;
+	float: left;
+	background-color: #e6e6e6;
+	margin-bottom: 120px;
+}
+
+.divProjects-image figure {
+	padding-right: 0%;
+	float: right;
+}
+
+.divProjects-image img {
+	width: 640px;
+	height: 360px;
+}
+
+.divProjects-text {
+	width: 45%;
+	float: right;
+	background-color: #e6e6e6;
+	padding: 0% 5%;
+	font-size: 1.1em;
+}
+
+.divProjects-text span {
+	font-weight: bold;
+	background-color: #696969;
+	color: gold;
+	border-style: solid;
+	border-color: black;
+}
+
 #SQLDiv {
 	padding-top: 100px;
 	background-color: #e6e6e6;
