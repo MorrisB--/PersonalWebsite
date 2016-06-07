@@ -365,6 +365,14 @@ body {
 	padding-top: 100px;
 }
 
+.projects-header a {
+	background-color: #92c3d3;
+	color: black;
+	font-size: 100%;
+	border-style: solid;
+	margin: 2.5%;
+}
+
 h1 {
 	font-weight: bold;
 }
