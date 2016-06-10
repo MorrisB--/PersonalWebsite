@@ -382,6 +382,13 @@ h1 {
 	margin: auto;
 }
 
+@media ( max-width : 1300px) {
+	.divProjects {
+		width: 100%;
+	}
+}
+
+
 .divProjects-image {
 	width: 55%;
 	float: left;
@@ -389,11 +396,10 @@ h1 {
 	margin-bottom: 120px;
 }
 
-.divProjects-image figure {
+/*.divProjects-image figure {
 	padding-right: 0%;
 	float: right;
-}
-
+}*/
 .divProjects-image img {
 	width: 640px;
 	height: 360px;
