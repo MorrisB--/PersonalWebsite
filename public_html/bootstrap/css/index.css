@@ -380,6 +380,11 @@ h1 {
 .divProjects {
 	width: 1300px;
 	margin: auto;
+	
+}
+
+.test {
+	display:flex;
 }
 
 @media ( max-width : 1300px) {
@@ -388,6 +393,12 @@ h1 {
 	}
 }
 
+@media ( max-width : 982px) {
+	.test {
+		display: none;
+
+	}
+}
 
 .divProjects-image {
 	width: 55%;
