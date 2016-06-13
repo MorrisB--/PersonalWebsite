@@ -408,10 +408,9 @@ h1 {
 
 .projects-text-small {
 	display: none;
-	float: none;
+	width: 100%;
 	margin: -50px auto 50px auto;
-			text-align: center;
-	
+	text-align: center;
 }
 
 .projects-text-small span {
@@ -420,7 +419,6 @@ h1 {
 	color: gold;
 	border-style: solid;
 	border-color: black;
-	
 }
 
 @media ( max-width : 982px) {
@@ -429,6 +427,12 @@ h1 {
 	}
 	.projects-text-small {
 		display: inline-block;
+	}
+	.projects-image {
+		margin: 0 auto;
+	}
+	.projects-text {
+		padding: 0 20px 50px 20px;
 	}
 }
 
