@@ -380,25 +380,58 @@ h1 {
 .divProjects {
 	width: 1300px;
 	margin: auto;
-	
 }
-
-/*.test {
-	display: flex;
-}*/
 
 @media ( max-width : 1300px) {
 	.divProjects {
 		width: 100%;
 	}
 }
-/*
+
+.projects-image {
+	padding-left: 50px;
+	margin-bottom: 100px;
+}
+
+.projects-text {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.projects-text span {
+	font-weight: bold;
+	background-color: #696969;
+	color: gold;
+	border-style: solid;
+	border-color: black
+}
+
+.projects-text-small {
+	display: none;
+	float: none;
+	margin: -50px auto 50px auto;
+			text-align: center;
+	
+}
+
+.projects-text-small span {
+	font-weight: bold;
+	background-color: #696969;
+	color: gold;
+	border-style: solid;
+	border-color: black;
+	
+}
+
 @media ( max-width : 982px) {
-	.test {
+	.projects-text h1 {
 		display: none;
 	}
+	.projects-text-small {
+		display: inline-block;
+	}
 }
-*/
+
 .divProjects-image {
 	width: 55%;
 	float: left;
