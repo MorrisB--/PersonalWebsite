@@ -390,12 +390,12 @@ h1 {
 
 .projects-image {
 	padding-left: 50px;
-	margin-bottom: 100px;
+	margin: 0 0 100px 0;
 }
 
 .projects-text {
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 30px;
+	padding-left: 40px;
 }
 
 .projects-text span {
@@ -421,7 +421,7 @@ h1 {
 	border-color: black;
 }
 
-@media ( max-width : 982px) {
+@media ( max-width : 1200px) {
 	.projects-text h1 {
 		display: none;
 	}
@@ -430,9 +430,17 @@ h1 {
 	}
 	.projects-image {
 		margin: 0 auto;
+		padding: 0 20px 0;
 	}
 	.projects-text {
 		padding: 0 20px 50px 20px;
+	}
+}
+
+@media ( max-width :1200px) {
+	.col-md-8 {
+		float: none;
+		margin: 0 auto;
 	}
 }
 
@@ -443,30 +451,7 @@ h1 {
 	margin-bottom: 120px;
 }
 
-/*.divProjects-image figure {
-	padding-right: 0%;
-	float: right;
-}*/
-.divProjects-image img {
-	width: 640px;
-	height: 360px;
-}
 
-.divProjects-text {
-	width: 45%;
-	float: right;
-	background-color: #e6e6e6;
-	padding: 0% 5%;
-	font-size: 1.1em;
-}
-
-.divProjects-text span {
-	font-weight: bold;
-	background-color: #696969;
-	color: gold;
-	border-style: solid;
-	border-color: black;
-}
 
 #SQLDiv {
 	padding-top: 100px;
