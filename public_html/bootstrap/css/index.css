@@ -383,23 +383,22 @@ h1 {
 	
 }
 
-.test {
-	display:flex;
-}
+/*.test {
+	display: flex;
+}*/
 
 @media ( max-width : 1300px) {
 	.divProjects {
 		width: 100%;
 	}
 }
-
+/*
 @media ( max-width : 982px) {
 	.test {
 		display: none;
-
 	}
 }
-
+*/
 .divProjects-image {
 	width: 55%;
 	float: left;
