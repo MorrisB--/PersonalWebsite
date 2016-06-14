@@ -14,16 +14,3 @@ To Do:
 Not too important stuff:
 
 * Find a way to import PHP into index.php, so that can be changed back to index.html
-
-
-
-Website 1.5:
-
-Move all CSS to stylesheet
-
-
-
-Website 2.0:
-
-Upgrade to Bootstrap
-
