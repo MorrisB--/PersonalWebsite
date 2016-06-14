@@ -1,38 +1,38 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "morris.ballenger@yahoo.com";
-    $from = "morrizyo@server134.web-hosting.com";
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $user_email = $_POST['email'];
-    $subject = "Form submission";
-    $message = $first_name . " " . $last_name . "\n" . $user_email . "\n\nMessage:\n\n" . $_POST['message'];
-    $human = $_POST['human'];
-    $headers = "From:" . $from;
-    
-    if ($_POST['submit']) {
-    	if (first_name != '' && $user_email != '' && last_name != '') {
-    		if ($human == '4') {
-		mail ( $to, $subject, $message, $headers );
-    			echo "<script>
+<?php
+if (isset ( $_POST ['submit'] )) {
+	$to = "morris.ballenger@yahoo.com";
+	$from = "morrizyo@server134.web-hosting.com";
+	$first_name = $_POST ['first_name'];
+	$last_name = $_POST ['last_name'];
+	$user_email = $_POST ['email'];
+	$subject = "Form submission";
+	$message = $first_name . " " . $last_name . "\n" . $user_email . "\n\nMessage:\n\n" . $_POST ['message'];
+	$human = $_POST ['human'];
+	$headers = "From:" . $from;
+	
+	if ($_POST ['submit']) {
+		if (first_name != '' && $user_email != '' && last_name != '') {
+			if ($human == '4') {
+				mail ( $to, $subject, $message, $headers );
+				echo "<script>
     					alert('Your message has been sent!');
     					</script>";
-    			} else {
-    				echo "<script>
+			} else {
+				echo "<script>
     						alert('Something went wrong, go back and try again!');
     						</script>";
-    			}
-    		} else if ($_POST['submit'] && $human != '4') {
-    			echo "<script>
+			}
+		} else if ($_POST ['submit'] && $human != '4') {
+			echo "<script>
     					alert('You answered the anti-spam question incorrectly!');
     					</script>";
-    		}
-    	} else {
-    		echo "<script>
+		}
+	} else {
+		echo "<script>
     				alert('You need to fill in all required fields!');
     				</script>";
-    	}
-    }
+	}
+}
 
 ?>
 <!DOCTYPE html>
@@ -107,8 +107,9 @@ if(isset($_POST['submit'])){
 						</span> <br /> <span id="helloTraits">&nbsp;I currently work as <i>Technical
 								Support</i> <br /> &nbsp;for <i>Themis Bar Review</i> <br />
 							&nbsp;I like <span id="trait-1">Java</span><span id="trait-2">Pineapple
-								Soda</span><span id="trait-3">Snowboarding</span><span id="trait-4">Apple
-								Fritters</span><span id="trait-5">Mountain Biking</span>.
+								Soda</span><span id="trait-3">Snowboarding</span><span
+							id="trait-4">Apple Fritters</span><span id="trait-5">Mountain
+								Biking</span>.
 						</span>
 					</p>
 				</div>
@@ -173,8 +174,7 @@ if(isset($_POST['submit'])){
 				</div>
 				<div class="skills-software-text">
 					<p>
-						<b>Software</b><br> Eclipse, Git, MySQL Workbench, Photoshop
-						CS6
+						<b>Software</b><br> Eclipse, Git, MySQL Workbench, Photoshop CS6
 					</p>
 				</div>
 			</div>
@@ -255,9 +255,9 @@ if(isset($_POST['submit'])){
 						<span>&nbsp;Game of Life&nbsp;</span>
 					</h1>
 					<br />
-					<p>This is my implementation of Conway's Game of Life. It is a
-						game of cellular automaton where its evolution is determined by
-						its initial state.</p>
+					<p>This is my implementation of Conway's Game of Life. It is a game
+						of cellular automaton where its evolution is determined by its
+						initial state.</p>
 				</div>
 			</div>
 
@@ -282,9 +282,9 @@ if(isset($_POST['submit'])){
 						<span>&nbsp;Rentals Database&nbsp;</span>
 					</h1>
 					<br />
-					<p>This is a database that can handle rentals for multiple
-						stores. SQL is used to manipulate the tables and provide
-						information, while Java is used to provide the user interface.</p>
+					<p>This is a database that can handle rentals for multiple stores.
+						SQL is used to manipulate the tables and provide information,
+						while Java is used to provide the user interface.</p>
 				</div>
 			</div>
 
@@ -320,14 +320,14 @@ if(isset($_POST['submit'])){
 							<input type="text" name="last_name" placeholder="Last Name"><br>
 							<input type="text" name="email" placeholder="Email"><br>
 							<textarea rows="5" name="message" cols="30" placeholder="Message"></textarea>
-							<br> What is 2+2? <br /> <input type="text" name="human"><br>
-
-							<input id="submit" name="submit" type="submit" value="Submit"
+							<br> What is 2+2? <br /> <input type="text" name="human"><br> <input
+								id="submit" name="submit" type="submit" value="Submit"
 								class="submit">
 						</form>
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
 
