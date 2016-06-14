@@ -485,15 +485,11 @@ figcaption {
 }
 
 .contact-text {
-	/* width: 50%; */
-	/* float: left; */
 	font-size: 1.1em;
 }
 
 .contact-text p {
-	/* float: right; */
 	padding-right: 10%;
-	/* width: 540px; */
 }
 
 .contact-text span {
@@ -505,25 +501,9 @@ figcaption {
 	border-color: black;
 }
 
-.content-text-img { /*
-	margin-right: 40%;
-	margin-top: 25px;
-	float: right;
-	*/
-	margin: 0 auto;
-	width: 120px;
-}
-
 .contact-form {
-	/* width: 50%; */
-	/* float: right; */
 	font-size: 1.1em;
 	margin-bottom: 100px;
-}
-
-.contact-form form {
-	/* padding-left: 10%; */
-	
 }
 
 .contact-form-form {
