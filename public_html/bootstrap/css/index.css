@@ -451,8 +451,6 @@ h1 {
 	margin-bottom: 120px;
 }
 
-
-
 #SQLDiv {
 	padding-top: 100px;
 	background-color: #e6e6e6;
@@ -472,7 +470,47 @@ figcaption {
 	text-align: center;
 }
 
-/* Contact */
+/* 
+ * Contact
+ */
+.contact-content {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+@media ( max-width : 1300px) {
+	.contact-content {
+		width: 100%;
+	}
+}
+
+.contact-text {
+	font-size: 1.1em;
+}
+
+.contact-text p {
+	padding-right: 10%;
+}
+
+.contact-text span {
+	font-weight: bold;
+	background-color: #696969;
+	color: gold;
+	font-size: 150%;
+	border-style: solid;
+	border-color: black;
+}
+
+.contact-form {
+	font-size: 1.1em;
+	margin-bottom: 100px;
+}
+
+.contact-form-form {
+	width: 440px;
+	margin: 0 auto;
+}
+
 input, textarea {
 	width: 440px;
 	height: 50px;
