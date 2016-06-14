@@ -473,16 +473,27 @@ figcaption {
 /* 
  * Contact
  */
+.contact-content {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+@media ( max-width : 1300px) {
+	.contact-content {
+		width: 100%;
+	}
+}
+
 .contact-text {
-	width: 50%;
-	float: left;
+	/* width: 50%; */
+	/* float: left; */
 	font-size: 1.1em;
 }
 
 .contact-text p {
-	float: right;
+	/* float: right; */
 	padding-right: 10%;
-	width: 540px;
+	/* width: 540px; */
 }
 
 .contact-text span {
@@ -494,10 +505,30 @@ figcaption {
 	border-color: black;
 }
 
-.content-text-img {
+.content-text-img { /*
 	margin-right: 40%;
 	margin-top: 25px;
 	float: right;
+	*/
+	margin: 0 auto;
+	width: 120px;
+}
+
+.contact-form {
+	/* width: 50%; */
+	/* float: right; */
+	font-size: 1.1em;
+	margin-bottom: 100px;
+}
+
+.contact-form form {
+	/* padding-left: 10%; */
+	
+}
+
+.contact-form-form {
+	width: 440px;
+	margin: 0 auto;
 }
 
 input, textarea {
