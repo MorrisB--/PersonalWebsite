@@ -44,220 +44,299 @@ if(isset($_POST['submit'])){
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 
-		<!-- This is added so this page will not be indexed by search engines -->
-		<meta name="robots" content="noindex, nofollow">
+<!-- This is added so this page will not be indexed by search engines -->
+<meta name="robots" content="noindex, nofollow">
 
-		<meta charset="utf-8">
+<meta charset="utf-8">
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<title>Morris Ballenger</title>
-		<meta name="author" content="Morris Ballenger">
+<title>Morris Ballenger</title>
+<meta name="author" content="Morris Ballenger">
 
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<link rel="shortcut icon" href="../public_ftp/favicon.ico">
-		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="shortcut icon" href="../public_ftp/favicon.ico">
+<link rel="stylesheet"
+	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="jquery.hexagonprogress.js"></script>
-		<script src="scripts/index.js"></script>
-		<script src="scripts/jquery.hexagonprogress.js"></script>
-		
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script
+	src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="jquery.hexagonprogress.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/jquery.hexagonprogress.js"></script>
 
-	</head>
 
-	<body>
+</head>
 
-		<nav class="navbar navbar-default" style="position:fixed; top: 0; width: 100%;">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Morris Ballenger</a>
+<body>
+
+	<nav class="navbar navbar-default"
+		style="position: fixed; top: 0; width: 100%;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Morris Ballenger</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#Hello">Hello</a></li>
+					<li><a href="#Skills">Skills</a></li>
+					<li><a href="#Projects">Projects</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+
+		<!-- Hello -->
+
+		<div class="row" id="Hello">
+			<div class="col-lg-9 col-md-10 col-sm-11 col-xs-12 hello-col">
+				<h1>
+					<span id="helloHello">&nbsp;Hello&nbsp;</span>
+				</h1>
+				<div id="hello-desktop">
+					<p>
+						<span id="helloName">&nbsp;I go by <b>Morris</b>,
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as <i>Technical
+								Support</i> <br /> &nbsp;for <i>Themis Bar Review</i> <br />
+							&nbsp;I like <span id="trait-1">Java</span><span id="trait-2">Pineapple
+								Soda</span><span id="trait-3">Snowboarding</span><span id="trait-4">Apple
+								Fritters</span><span id="trait-5">Mountain Biking</span>.
+						</span>
+					</p>
 				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#Hello">Hello</a>
-						</li>
-						<li>
-							<a href="#Skills">Skills</a>
-						</li>
-						<li>
-							<a href="#Projects">Projects</a>
-						</li>
-						<li>
-							<a href="#Contact">Contact</a>
-						</li>
-					</ul>
+				<div id="hello-mobile">
+					<p>
+						<span id="helloName">&nbsp;I go by <b>Morris</b>,
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work
+							as&nbsp;<br> <i>&nbsp;Technical Support&nbsp;</i> <br />
+							&nbsp;for <i>Themis Bar Review</i> <br /> &nbsp;I like <span
+							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
+								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
+							id="trait-mobile-4">Apple Fritters</span><span
+							id="trait-mobile-5">Mountain Biking</span>.
+						</span>
+					</p>
 				</div>
 			</div>
-		</nav>
-
-		<div id="Hello">
-			<p>
-				<span id="helloHello">&nbsp;Hello </span>
-				<br />
-				<span id="helloName">&nbsp;I go by <b>Morris</b>, </span>
-				<br />
-				<span id="helloTraits">&nbsp;I currently work as <i>Technical Support</i>
-					<br />
-					&nbsp;for <i>Themis Bar Review</i>
-					<br />
-					&nbsp;I like <span id="trait-1">Java</span><span id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span id="trait-4">Apple Fritters</span><span id="trait-5">Mountain Biking</span>.
-			</span></p>
 		</div>
 
+		<!-- Skills -->
 
 		<div id="Skills">
 
-			<div class="title">
+			<div class="row">
+				<div class="title">
+					<p>SKILLS</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="favorites">
+					<div>
+						<h1>&nbsp;My favorites:&nbsp;</h1>
+					</div>
+					<div id="javaProgress">
+						<p>Java</p>
+					</div>
+					<div id="sqlProgress">
+						<p>SQL</p>
+					</div>
+					<div id="jsProgress">
+						<p>JavaScript/jQuery</p>
+					</div>
+					<br style="clear: left;" />
+				</div>
+			</div>
+
+			<div class="skills-brackets">
+				<div>
+					<img src="images/brackets.png" alt="Brackets">
+				</div>
+				<div class="skills-brackets-text">
+					<p>
+						<b>Languages</b><br> Java/JDBC, JavaScript/jQuery, SQL, HTML,
+						CSS/Bootstrap
+					</p>
+				</div>
+			</div>
+			<div class="skills-software">
+				<div>
+					<img src="images/lightBulb.png" alt="Light Bulb">
+				</div>
+				<div class="skills-software-text">
+					<p>
+						<b>Software</b><br> Eclipse, Git, MySQL Workbench, Photoshop
+						CS6
+					</p>
+				</div>
+			</div>
+
+			<div class="coming-soon">
 				<p>
-					SKILLS
+					<span>In Progress:</span> PHP, Algorithms, AngularJS, C#, Unity 3D,
+					MonoDevelop
 				</p>
-			</div>
-			<div class="favorites">
-				<div style="float:left">
-				<p style="font-size:200%; margin-top:30%; margin-right:50px; color:gold; font-weight: bold; background-color: #696969; border-style:solid; border-color:black">&nbsp;My favorites:&nbsp;</p>
-				</div>
-				<div id="javaProgress" style="width:350px; float:left">
-				<p style="text-align: center; width: 250px">Java</p>
-				</div>
-				<div id="sqlProgress" style="width:350px; float:left">
-				<p style="text-align: center; width: 250px">SQL</p>
-				</div>
-				<div id="jsProgress" style="width:250px; float:left">
-				<p style="text-align: center; width: 250px">JavaScript/jQuery</p>
-				</div>
-				<br style="clear: left;" />
-			</div>
-			<div id="skillsBrackets">
-				<div>
-					<img src="images/brackets.png" alt="Brackets" style="width:300px; height:300px;">
-				</div>
-				<div id="skillsBracketsText">
-					<p>
-						<b>Languages</b><br>
-						Java, JavaScript/jQuery, SQL, HTML, CSS
-					</p>
-				</div>
-			</div>
-			<div id="skillsSoftware">
-				<div>
-					<img src="images/lightBulb.png" alt="Brackets" style="width:300px; height:300px">
-				</div>
-				<div id="skillsSoftwareText">
-					<p>
-						<b>Software</b><br>
-						Eclipse, Git, MySQL Workbench, Photoshop CS6
-					</p>
-				</div>
-			</div>
-			<div style="text-align:center; padding-top:550px; font-size:1.2em">
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">In Progress:</span> PHP, Algorithms, Bootstrap, C#, Unity 3D</p>
-				<p><span style = "font-weight:bold; font-style:italic; text-shadow: -1px -1px 5px white;">Coming Soon:</span> ASP.NET, Visual Basic, AngularJS, XML, and much more!</p>
+				<p>
+					<span>Coming Soon:</span> ASP.NET, Visual Basic, XML, and much
+					more!
+				</p>
 			</div>
 		</div>
 
-		<div id="Projects" style="padding-bottom: 120px; background-color:#84cae1">
-			<div class="title"><p>PROJECTS</p></div>
-			<div style="text-align:center; padding-top: 20px; font-size:60px; font-weight:bold; padding-top:100px;">
-				<a href="javascript:;" id="Java" style="background-color:#92c3d3; color: black; font-size: 100%; border-style:solid;">&nbsp;Java&nbsp;</a>
-				<a href="javascript:;" id="JavaScript" style="background-color:#92c3d3; color: black; font-size: 100%; margin: 100px; border-style:solid;">&nbsp;JavaScript&nbsp;</a>
-				<a href="javascript:;" id="SQL" style="background-color:#92c3d3; color: black; font-size: 100%; border-style:solid;">&nbsp;SQL&nbsp;</a>
+		<!--  Projects -->
+
+		<div id="Projects" class="row">
+
+			<div class=row>
+				<div class="title">
+					<p>PROJECTS</p>
+				</div>
 			</div>
-			<div id="JavaDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
-					<figure style="padding-right: 0%; float: right">
-						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
-						<img src="images/collections.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
+
+			<div class="row projects-header">
+				<a href="javascript:;" id="Java">&nbsp;Java&nbsp;</a> <a
+					href="javascript:;" id="JavaScript">&nbsp;JavaScript&nbsp;</a> <a
+					href="javascript:;" id="SQL">&nbsp;SQL&nbsp;</a>
+			</div>
+
+			<div id="JavaDiv" class="row divProjects">
+				<div class="projects-text-small">
+					<h1>
+						<span>&nbsp;Collections Framework&nbsp;</span>
+					</h1>
+				</div>
+				<div
+					class="projects-image col-xl-7 col-xl-offset-0 col-lg-7 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
+					<figure>
+						<a href="https://github.com/MorrisB--/Collections" target="_blank">
+							<img src="images/collections.PNG" class="img-responsive"
+							alt="ENTER ALT HERE">
 						</a>
 						<figcaption>Java</figcaption>
 					</figure>
 				</div>
-				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Collections Framework&nbsp;</span></h1><br />
-					<p>This is my implementation of the Java Collections Framework. This framework contains a Linked List, Stack, Queue, Binary Search Tree, and Hash Table data structures.</p>
+				<div class="projects-text col-xl-5 col-lg-5 col-md-12 col-sm-12">
+					<h1>
+						<span>&nbsp;Collections Framework&nbsp;</span>
+					</h1>
+					<br />
+					<p>This is my implementation of the Java Collections Framework.
+						This framework contains a Linked List, Stack, Queue, Binary Search
+						Tree, and Hash Table data structures.</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer div -->
-				<div style="clear:both;"></div>
 			</div>
-			<div id="JavaScriptDiv" class="divProjects">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
-					<figure style="padding-right: 0%; float: right">
+
+			<div id="JavaScriptDiv" class="row divProjects">
+				<div class="projects-text-small">
+					<h1>
+						<span>&nbsp;Game of Life&nbsp;</span>
+					</h1>
+				</div>
+				<div
+					class="projects-image col-xl-7 col-xl-offset-0 col-lg-7 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
+					<figure>
 						<a href="https://github.com/MorrisB--/GameOfLife" target="_blank">
-						<img src="images/gameOfLife.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
+							<img src="images/gameOfLife.PNG" class="img-responsive"
+							alt="ENTER ALT HERE">
 						</a>
 						<figcaption>JavaScript</figcaption>
 					</figure>
 				</div>
-				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Game of Life&nbsp;</span></h1><br />
-					<p>This is my implementation of Conway's Game of Life. It is a game of cellular automaton where its evolution is determined by its initial state.</p>
+				<div class="projects-text col-xl-5 col-lg-5 col-md-12 col-sm-12">
+					<h1>
+						<span>&nbsp;Game of Life&nbsp;</span>
+					</h1>
+					<br />
+					<p>This is my implementation of Conway's Game of Life. It is a
+						game of cellular automaton where its evolution is determined by
+						its initial state.</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer div -->
-				<div style="clear:both;"></div>
 			</div>
-			<div id="SQLDiv" class="divProjects" style="background-color: #e6e6e6">
-				<div style="width:55%; float:left; background-color:#e6e6e6; margin-bottom:120px;/* padding-left:20%; padding-right:10%*/">
-					<figure style="padding-right: 0%; float: right">
-						<a href="https://github.com/MorrisB--/RentalsDatabase" target="_blank">
-						<img id="rentalsDatabaseImg" src="images/rentalsDatabase.PNG" alt="ENTER ALT HERE" style="width:640px; height:360px;">
+
+			<div id="SQLDiv" class="row divProjects">
+				<div class="projects-text-small">
+					<h1>
+						<span>&nbsp;Rentals Database&nbsp;</span>
+					</h1>
+				</div>
+				<div
+					class="projects-image col-xl-7 col-xl-offset-0 col-lg-7 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
+					<figure>
+						<a href="https://github.com/MorrisB--/RentalsDatabase"
+							target="_blank"> <img src="images/rentalsDatabase.PNG"
+							class="img-responsive" alt="ENTER ALT HERE">
 						</a>
 						<figcaption>SQL | Java</figcaption>
 					</figure>
 				</div>
-				<div style="width:45%; float:right; background-color:#e6e6e6; padding:0% 5%; font-size:1.1em;/* padding-right:20%; padding-left:10%; padding-top:10%*/">
-				<h1><span style="font-weight: bold;background-color: #696969; color: gold; border-style:solid; border-color:black">&nbsp;Rentals Database&nbsp;</span></h1><br />
-					<p>This is a database that can handle rentals for multiple stores. SQL is used to manipulated the tables and provide information, white Java is used to provide the user interface.</p>
+				<div class="projects-text col-xl-5 col-lg-5 col-md-12 col-sm-12">
+					<h1>
+						<span>&nbsp;Rentals Database&nbsp;</span>
+					</h1>
+					<br />
+					<p>This is a database that can handle rentals for multiple
+						stores. SQL is used to manipulate the tables and provide
+						information, while Java is used to provide the user interface.</p>
 				</div>
-				<!-- This is so the inner divs will both adjust the size of the outer div -->
-				<div style="clear:both;"></div>
 			</div>
-		
 
 		</div>
 
+		<!-- Contact -->
 
+		<div id="Contact" class="row">
 
+			<div class="title row" style="margin-bottom: 100px">
+				<p>CONTACT</p>
+			</div>
 
+			<div class="row contact-content">
+				<div class="contact-text col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<p>
+						<span>&nbsp;Chicago, IL 60647&nbsp;</span><br /> <br /> I
+						currently live in Chicago and am interested in opportunities in
+						the Chicagoland area until I graduate. If you are interested in
+						working with me please fill out the form and I will get back to
+						you as soon as possible. Also feel free to follow me on GitHub!<br />
+					</p>
+					<div style="width: 120px; margin: 0 auto 20px;">
+						<a href="https://github.com/MorrisB--" target="_blank"><img
+							src="images/GitHubIcon.png" class="gitHubImage" /></a>
+					</div>
+				</div>
 
-		<div class="title" style="margin-bottom:100px">
-			<p>
-				CONTACT
-			</p>
+				<div class="contact-form col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="contact-form-form">
+						<form action="" method="post">
+							<input type="text" name="first_name" placeholder="First Name"><br>
+							<input type="text" name="last_name" placeholder="Last Name"><br>
+							<input type="text" name="email" placeholder="Email"><br>
+							<textarea rows="5" name="message" cols="30" placeholder="Message"></textarea>
+							<br> What is 2+2? <br /> <input type="text" name="human"><br>
+
+							<input id="submit" name="submit" type="submit" value="Submit"
+								class="submit">
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div style="width:50%; float: left;	font-size: 1.1em;">
-		<p style="float:right; padding-right:10%; width: 540px;">
-		<span style="font-weight: bold;background-color: #696969; color: gold; font-size:150%; border-style:solid; border-color:black">&nbsp;Chicago, IL 60654&nbsp;</span><br /><br />
-		I currently live in Chicago and am interested in opportunities in the Chicagoland area until I graduate.
-		If you are interested in working with me please fill out the form on the right and I will get back to you as soon as possible.
-		Also feel free to follow me on GitHub!<br />
-		<a href="https://github.com/MorrisB--" target="_blank"><img src ="images/GitHubIcon.png" style="margin-right:40%;margin-top:25px;float:right;" class="gitHubImage"/></a>
-		</p>
-		</div>
-		
-		<div id="Contact" style="width:50%; float:right;font-size: 1.1em;margin-bottom:100px">
-			<form action="" method="post" style="padding-left: 10%">
-			<input type="text" name="first_name" placeholder="First Name"><br>
-			<input type="text" name="last_name" placeholder="Last Name"><br>
-			<input type="text" name="email" placeholder="Email"><br>
-			<textarea rows="5" name="message" cols="30" placeholder="Message"></textarea><br>
-			What is 2+2? <br />
-			<input type="text" name="human"><br>
-            
-            <input id="submit" name="submit" type="submit" value="Submit" class="submit">
-			</form> 
-		</div>
+	</div>
 
-	</body>
+</body>
 </html>

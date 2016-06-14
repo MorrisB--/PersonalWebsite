@@ -1,5 +1,0 @@
-To Do:
-
-* Finish Projects Div
-* Finish Contact Div
-* Move navigation bar to higher z axis
