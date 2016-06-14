@@ -8,15 +8,8 @@ if(isset($_POST['submit'])){
     $subject = "Form submission";
     $message = $first_name . " " . $last_name . "\n" . $user_email . "\n\nMessage:\n\n" . $_POST['message'];
     $human = $_POST['human'];
+    $headers = "From:" . $from;
     
-    $headers = "From:" . $from;/*
-	if ($_POST ['submit'] && $human == '4') {
-		mail ( $to, $subject, $message, $headers );
-		echo "Mail Sent. Thank you " . $first_name . ", I will contact you shortly.";
-	}else { 
-        echo '<p>Something went wrong, go back and try again!</p>'; 
-    }
-    */
     if ($_POST['submit']) {
     	if (first_name != '' && $user_email != '' && last_name != '') {
     		if ($human == '4') {
