@@ -181,12 +181,10 @@ if (isset ( $_POST ['submit'] )) {
 
 			<div class="coming-soon">
 				<p>
-					<span>In Progress:</span> PHP, Algorithms, AngularJS, C#, Unity 3D,
-					MonoDevelop
+					<span>In Progress:</span> Algorithms, AngularJS, C#, Unity 3D, Visual Basic, MonoDevelop
 				</p>
 				<p>
-					<span>Coming Soon:</span> ASP.NET, Visual Basic, XML, and much
-					more!
+					<span>Coming Soon:</span> ASP.NET, PHP, XML, Python and much more!
 				</p>
 			</div>
 		</div>
