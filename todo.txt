@@ -1,6 +1,5 @@
 To Do:
 
-* Add new job!
 * Update skills for sdlc
 
 *** CREATE AND ADD favicon.ico

@@ -71,7 +71,7 @@ if (isset ( $_POST ['submit'] )) {
 <body>
 
 	<nav class="navbar navbar-default"
-		style="position: fixed; top: 0; width: 100%; z-index:2">
+		style="position: fixed; top: 0; width: 100%; z-index: 2">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -104,10 +104,10 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-desktop">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work as <i>Technical
-								Support</i> <br /> &nbsp;for <i>Themis Bar Review</i> <br />
-							&nbsp;I like <span id="trait-1">Java</span><span id="trait-2">Pineapple
-								Soda</span><span id="trait-3">Snowboarding</span><span
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as a
+							<i>Software Engineering Intern</i> <br /> &nbsp;for <i>GN
+								Otometrics</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
+							id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span
 							id="trait-4">Apple Fritters</span><span id="trait-5">Mountain
 								Biking</span>.
 						</span>
@@ -116,9 +116,9 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-mobile">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work
-							as&nbsp;<br> <i>&nbsp;Technical Support&nbsp;</i> <br />
-							&nbsp;for <i>Themis Bar Review</i> <br /> &nbsp;I like <span
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as
+							a&nbsp;<br> <i>&nbsp;Software Engineering Intern&nbsp;</i> <br />
+							&nbsp;for <i>GN Otometrics</i> <br /> &nbsp;I like <span
 							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
 								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
 							id="trait-mobile-4">Apple Fritters</span><span
@@ -181,10 +181,11 @@ if (isset ( $_POST ['submit'] )) {
 
 			<div class="coming-soon">
 				<p>
-					<span>In Progress:</span> Algorithms, AngularJS, C#, Unity 3D, Visual Basic, MonoDevelop
+					<span>In Progress:</span> Algorithms, AngularJS, C#, NUnit, Unity 3D,
+					Visual Basic, MonoDevelop
 				</p>
 				<p>
-					<span>Coming Soon:</span> ASP.NET, PHP, XML, Python and much more!
+					<span>Coming Soon:</span> ASP.NET, PHP, XML, Python, Django and much more!
 				</p>
 			</div>
 		</div>
