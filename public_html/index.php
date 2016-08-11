@@ -116,8 +116,8 @@ if (isset ( $_POST ['submit'] )) {
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
 						</span> <br /> <span id="helloTraits">&nbsp;I currently work as
-							a&nbsp;<br> <i>&nbsp;Software Engineering Intern&nbsp;</i> <br />
-							&nbsp;for <i>GN Otometrics</i> <br /> &nbsp;I like <span
+							a&nbsp;<br> <i>&nbsp;Technical Support&nbsp;</i> <br />
+							&nbsp;for <i>Themis Bar Review</i> <br /> &nbsp;I like <span
 							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
 								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
 							id="trait-mobile-4">Apple Fritters</span><span
