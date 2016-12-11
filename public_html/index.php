@@ -162,8 +162,8 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="skills-brackets-text">
 					<p>
-						<b>Languages</b><br> Java/JDBC, JavaScript/jQuery, SQL, HTML,
-						CSS/Bootstrap
+						<b>Languages</b><br> Java/JDBC, SQL, Git, JavaScript/jQuery, HTML,
+						CSS/Bootstrap, C#, ASP.NET
 					</p>
 				</div>
 			</div>
@@ -173,18 +173,17 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="skills-software-text">
 					<p>
-						<b>Software</b><br> Eclipse, Git, MySQL Workbench, Photoshop CS6
+						<b>Software</b><br> Eclipse, SQL Server, MySQL Workbench, Subversion, Liquibase, Unity3D, Visual Studio
 					</p>
 				</div>
 			</div>
 
 			<div class="coming-soon">
 				<p>
-					<span>In Progress:</span> Algorithms, AngularJS, C#, NUnit, Unity 3D,
-					Visual Basic, MonoDevelop
+					<span>In Progress:</span> Spring, Hibernate, XML
 				</p>
 				<p>
-					<span>Coming Soon:</span> ASP.NET, PHP, XML, Python, Django and much more!
+					<span>Coming Soon:</span> Scala, Groovy, Go, PHP, XML, Python and much more!
 				</p>
 			</div>
 		</div>
