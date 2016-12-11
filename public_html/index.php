@@ -104,8 +104,8 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-desktop">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work as
-							<i>Technical Support</i> <br /> &nbsp;for <i>Themis Bar Review</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
+							<i>Intern</i> <br /> &nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
 							id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span
 							id="trait-4">Apple Fritters</span><span id="trait-5">Mountain
 								Biking</span>.
@@ -115,9 +115,9 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-mobile">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work as
-							a&nbsp;<br> <i>&nbsp;Technical Support&nbsp;</i> <br />
-							&nbsp;for <i>Themis Bar Review</i> <br /> &nbsp;I like <span
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
+							a&nbsp;<br> <i>&nbsp;Intern&nbsp;</i> <br />
+							&nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span
 							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
 								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
 							id="trait-mobile-4">Apple Fritters</span><span
