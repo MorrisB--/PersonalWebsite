@@ -162,8 +162,8 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="skills-brackets-text">
 					<p>
-						<b>Languages</b><br> Java/JDBC, SQL, Git, JavaScript/jQuery, HTML,
-						CSS/Bootstrap, C#, ASP.NET
+						<b>Languages</b><br> Java, Spring, JDBC, SQL, Git, JavaScript/jQuery, HTML,
+						CSS/Bootstrap, XML, C#, ASP.NET
 					</p>
 				</div>
 			</div>
@@ -180,7 +180,7 @@ if (isset ( $_POST ['submit'] )) {
 
 			<div class="coming-soon">
 				<p>
-					<span>In Progress:</span> Spring, Hibernate, XML
+					<span>In Progress:</span> Maven, Tomcat, Hibernate
 				</p>
 				<p>
 					<span>Coming Soon:</span> Scala, Groovy, Go, PHP, XML, Python and much more!
