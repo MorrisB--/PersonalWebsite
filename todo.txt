@@ -1,6 +1,7 @@
 To Do:
 
-* Update skills for sdlc
+* Update skills
+* Revamp projects section
 
 *** CREATE AND ADD favicon.ico
 
