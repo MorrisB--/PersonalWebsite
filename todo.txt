@@ -2,6 +2,7 @@ To Do:
 
 * Update skills
 * Revamp projects section
+* Consider better validation
 
 *** CREATE AND ADD favicon.ico
 
