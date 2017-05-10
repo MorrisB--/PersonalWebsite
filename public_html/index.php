@@ -104,8 +104,8 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-desktop">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work as a
-							<i>Software Engineer</i> <br /> &nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
+							<i>Intern</i> <br /> &nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
 							id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span
 							id="trait-4">Apple Fritters</span><span id="trait-5">Mountain
 								Biking</span>.
@@ -115,8 +115,8 @@ if (isset ( $_POST ['submit'] )) {
 				<div id="hello-mobile">
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
-						</span> <br /> <span id="helloTraits">&nbsp;I currently work as a
-							a&nbsp;<br> <i>&nbsp;Software Engineer&nbsp;</i> <br />
+						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
+							a&nbsp;<br> <i>&nbsp;Intern&nbsp;</i> <br />
 							&nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span
 							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
 								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
@@ -162,8 +162,8 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="skills-brackets-text">
 					<p>
-						<b>Languages</b><br> Java, Spring, JDBC, SQL, Git, JavaScript/jQuery, HTML,
-						CSS/Bootstrap, XML, C#, ASP.NET
+						<b>Languages</b><br> Java/JDBC, SQL, Git, JavaScript/jQuery, HTML,
+						CSS/Bootstrap, C#, ASP.NET
 					</p>
 				</div>
 			</div>
@@ -180,7 +180,7 @@ if (isset ( $_POST ['submit'] )) {
 
 			<div class="coming-soon">
 				<p>
-					<span>In Progress:</span> Maven, Tomcat, Hibernate
+					<span>In Progress:</span> Spring, Hibernate, XML
 				</p>
 				<p>
 					<span>Coming Soon:</span> Scala, Groovy, Go, PHP, XML, Python and much more!
