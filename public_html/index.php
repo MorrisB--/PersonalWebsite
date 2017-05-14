@@ -300,10 +300,12 @@ if (isset ( $_POST ['submit'] )) {
 				<div class="contact-text col-xl-6 col-lg-6 col-md-12 col-sm-12">
 					<p>
 						<span>&nbsp;Chicago, IL 60647&nbsp;</span><br /> <br /> I
-						currently live in Chicago and am interested in opportunities in
-						the Chicagoland area until I graduate. If you are interested in
-						working with me please fill out the form and I will get back to
-						you as soon as possible. Also feel free to follow me on GitHub!<br />
+						currently live in Chicago IL and will be moving to the Austin TX
+						area July 1st. I'm in the job marking searching for Software
+						Engineering positions. If you're interested in working with me
+						please fill out the form and I will get back to you as soon as
+						possible. Also, feel free to follow me on GitHub and check out my
+						LinkedIn!<br />
 					</p>
 					<div style="width: 120px; margin: 0 auto 20px;">
 						<a href="https://github.com/MorrisB--" target="_blank"><img
