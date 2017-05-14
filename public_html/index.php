@@ -307,9 +307,11 @@ if (isset ( $_POST ['submit'] )) {
 						possible. Also, feel free to follow me on GitHub and check out my
 						LinkedIn!<br />
 					</p>
-					<div style="width: 120px; margin: 0 auto 20px;">
+					<div style="width: 246px; margin: 0 auto 20px;">
 						<a href="https://github.com/MorrisB--" target="_blank"><img
 							src="images/GitHubIcon.png" class="gitHubImage" /></a>
+						<a href="https://www.linkedin.com/in/morris-ballenger" target="_blank"><img
+							src="images/LinkedInIcon.png" class="gitHubImage" /></a>
 					</div>
 				</div>
 
