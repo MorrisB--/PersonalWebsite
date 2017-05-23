@@ -299,8 +299,8 @@ if (isset ( $_POST ['submit'] )) {
 			<div class="row contact-content">
 				<div class="contact-text col-xl-6 col-lg-6 col-md-12 col-sm-12">
 					<p>
-						<span>&nbsp;Chicago, IL 60647&nbsp;</span><br /> <br /> I
-						currently live in Chicago IL and will be moving to the Austin TX
+						<span>&nbsp;Raleigh-Durham, NC&nbsp;</span><br /> <br /> I
+						currently live in Chicago IL and will be moving to the Raleigh-Durham
 						area July 1st. I'm in the job marking searching for Software
 						Engineering positions. If you're interested in working with me
 						please fill out the form and I will get back to you as soon as
