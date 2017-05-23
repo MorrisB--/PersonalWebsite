@@ -105,8 +105,9 @@ if (isset ( $_POST ['submit'] )) {
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
 						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
-							<i>Intern</i> <br /> &nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span id="trait-1">Java</span><span
-							id="trait-2">Pineapple Soda</span><span id="trait-3">Snowboarding</span><span
+							<i>Intern</i> <br /> &nbsp;for <i>GAINSystems</i> <br /> &nbsp;I
+							like <span id="trait-1">Java</span><span id="trait-2">Pineapple
+								Soda</span><span id="trait-3">Snowboarding</span><span
 							id="trait-4">Apple Fritters</span><span id="trait-5">Mountain
 								Biking</span>.
 						</span>
@@ -116,12 +117,11 @@ if (isset ( $_POST ['submit'] )) {
 					<p>
 						<span id="helloName">&nbsp;I go by <b>Morris</b>,
 						</span> <br /> <span id="helloTraits">&nbsp;I currently work as an
-							a&nbsp;<br> <i>&nbsp;Intern&nbsp;</i> <br />
-							&nbsp;for <i>GAINSystems</i> <br /> &nbsp;I like <span
-							id="trait-mobile-1">Java</span><span id="trait-mobile-2">Pineapple
-								Soda</span><span id="trait-mobile-3">Snowboarding</span><span
-							id="trait-mobile-4">Apple Fritters</span><span
-							id="trait-mobile-5">Mountain Biking</span>.
+							a&nbsp;<br> <i>&nbsp;Intern&nbsp;</i> <br /> &nbsp;for <i>GAINSystems</i>
+							<br /> &nbsp;I like <span id="trait-mobile-1">Java</span><span
+							id="trait-mobile-2">Pineapple Soda</span><span
+							id="trait-mobile-3">Snowboarding</span><span id="trait-mobile-4">Apple
+								Fritters</span><span id="trait-mobile-5">Mountain Biking</span>.
 						</span>
 					</p>
 				</div>
@@ -163,8 +163,8 @@ if (isset ( $_POST ['submit'] )) {
 				<div class="skills-brackets-text">
 					<p>
 						<b>Languages</b><br> Java (JDBC, JavaFX, Spring, Swing), SQL
-						Server, Oracle, Git, JavaScript/jQuery, HTML, CSS/Bootstrap, XML, Bash, C#,
-						ASP.NET
+						Server, Oracle, Git, JavaScript/jQuery, HTML, CSS/Bootstrap, XML,
+						Bash, C#, ASP.NET
 					</p>
 				</div>
 			</div>
@@ -174,7 +174,8 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="skills-software-text">
 					<p>
-						<b>Software</b><br> Eclipse, SQL Server MS, MySQL, SQL Developer, Subversion, Liquibase, Vim, Unity3D, Visual Studio
+						<b>Software</b><br> Eclipse, SQL Server MS, MySQL, SQL Developer,
+						Subversion, Liquibase, Vim, Unity3D, Visual Studio
 					</p>
 				</div>
 			</div>
@@ -184,7 +185,8 @@ if (isset ( $_POST ['submit'] )) {
 					<span>In Progress:</span> MongoDB, JUnit, Hibernate
 				</p>
 				<p>
-					<span>Coming Soon:</span> Scala, Groovy, Go, PHP, Python and much more!
+					<span>Coming Soon:</span> Scala, Groovy, Go, PHP, Python and much
+					more!
 				</p>
 			</div>
 		</div>
@@ -223,12 +225,15 @@ if (isset ( $_POST ['submit'] )) {
 				</div>
 				<div class="projects-text col-xl-5 col-lg-5 col-md-12 col-sm-12">
 					<h1>
-						<span>&nbsp;Collections Framework&nbsp;</span>
+						<span>&nbsp;MasterHash&nbsp;</span>
 					</h1>
 					<br />
-					<p>This is my implementation of the Java Collections Framework.
-						This framework contains a Linked List, Stack, Queue, Binary Search
-						Tree, and Hash Table data structures.</p>
+					<p>MasterHash is a password manager that allows a user to have an
+						almost infinite amount of passwords while only using their main
+						one. What will make this product different from others on the
+						market is that it will all be stored in one encrypted file which
+						will allow easy transport. The software is written mainly in Java,
+						with the GUI written in JavaFX.</p>
 				</div>
 			</div>
 
@@ -300,18 +305,19 @@ if (isset ( $_POST ['submit'] )) {
 				<div class="contact-text col-xl-6 col-lg-6 col-md-12 col-sm-12">
 					<p>
 						<span>&nbsp;Raleigh-Durham, NC&nbsp;</span><br /> <br /> I
-						currently live in Chicago IL and will be moving to the Raleigh-Durham
-						area July 1st. I'm in the job marking searching for Software
-						Engineering positions. If you're interested in working with me
-						please fill out the form and I will get back to you as soon as
-						possible. Also, feel free to follow me on GitHub and check out my
-						LinkedIn!<br />
+						currently live in Chicago IL and will be moving to the
+						Raleigh-Durham area July 1st. I'm in the job marking searching for
+						Software Engineering positions. If you're interested in working
+						with me please fill out the form and I will get back to you as
+						soon as possible. Also, feel free to follow me on GitHub and check
+						out my LinkedIn!<br />
 					</p>
 					<div style="width: 246px; margin: 0 auto 20px;">
 						<a href="https://github.com/MorrisB--" target="_blank"><img
-							src="images/GitHubIcon.png" class="gitHubImage" /></a>
-						<a href="https://www.linkedin.com/in/morris-ballenger" target="_blank"><img
-							src="images/LinkedInIcon.png" class="gitHubImage" /></a>
+							src="images/GitHubIcon.png" class="gitHubImage" /></a> <a
+							href="https://www.linkedin.com/in/morris-ballenger"
+							target="_blank"><img src="images/LinkedInIcon.png"
+							class="gitHubImage" /></a>
 					</div>
 				</div>
 
