@@ -163,7 +163,7 @@ if (isset ( $_POST ['submit'] )) {
 				<div class="skills-brackets-text">
 					<p>
 						<b>Languages</b><br> Java (JDBC, JavaFX, Spring, Swing), SQL
-						Server, Oracle, Git, JavaScript/jQuery, HTML, CSS/Bootstrap, XML,
+						Server, Oracle, PostgreSQL, Git, JavaScript/jQuery, HTML, CSS/Bootstrap, XML,
 						Bash, C#, ASP.NET
 					</p>
 				</div>
