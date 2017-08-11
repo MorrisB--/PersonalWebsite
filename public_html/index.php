@@ -306,7 +306,7 @@ if (isset ( $_POST ['submit'] )) {
 					<p>
 						<span>&nbsp;Raleigh-Durham, NC&nbsp;</span><br /> <br /> I
 						currently live in Chicago IL and will be moving to
-						Durham, North Carolina July 1st. I'm in the job marking searching for
+						Durham, North Carolina July 1st. I'm in the job market searching for
 						Software Engineering positions. If you're interested in working
 						with me please fill out the form and I will get back to you as
 						soon as possible. Also, feel free to follow me on GitHub and check
